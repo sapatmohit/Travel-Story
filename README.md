@@ -1,4 +1,4 @@
-# 🌍 Travel Story
+# ![Logo](/travel-story-app/public/favicon.png) Travel Story
 
 A beautiful web application for travelers to share and preserve their journey memories. Create, manage, and relive your travel experiences through stories, photos, and locations.
 
@@ -15,17 +15,20 @@ A beautiful web application for travelers to share and preserve their journey me
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
 ### Backend
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### Additional Libraries
+
 - 📅 React Day Picker
 - 🕒 Moment.js
 - 🎨 React Icons
@@ -44,12 +47,14 @@ A beautiful web application for travelers to share and preserve their journey me
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/sapatmohit/Travel-Story.git
 cd Travel-Story
 ```
 
 2. Install dependencies for both frontend and backend
+
 ```bash
 # Install frontend dependencies
 cd travel-story-app
@@ -61,6 +66,7 @@ npm install
 ```
 
 3. Set up environment variables
+
 ```bash
 # Create .env file in backend directory
 MONGODB_URI=your_mongodb_uri
@@ -69,6 +75,7 @@ PORT=5000
 ```
 
 4. Start the development servers
+
 ```bash
 # Start backend server
 cd travel-story-app/backend
@@ -81,24 +88,27 @@ npm run dev
 
 ## 📸 Screenshots
 
-![Dashboard](/api/placeholder/800/400)
-![Add Story](/api/placeholder/800/400)
-![Story View](/api/placeholder/800/400)
+![Dashboard](/Screenshots/dashboard.png)
+![Add Story](/Screenshots/addStory.png)
+![Story View](/Screenshots/viewStory.png)
 
 ## 🌟 Key Features Explained
 
 ### Story Management
+
 - Create, edit, and delete travel stories
 - Upload and manage images for each story
 - Add location information
 - Set visit dates
 
 ### Search & Filter
+
 - Search stories by title or content
 - Filter stories by date range using an interactive calendar
 - Quick access to favorite stories
 
 ### User Experience
+
 - Responsive design for mobile and desktop
 - Toast notifications for user actions
 - Modal-based forms for story creation and editing
