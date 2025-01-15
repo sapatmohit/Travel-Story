@@ -14,8 +14,6 @@ A beautiful web application for travelers to share and preserve their journey me
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
