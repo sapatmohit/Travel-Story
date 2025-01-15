@@ -52,11 +52,11 @@ cd Travel-Story
 2. Install dependencies for both frontend and backend
 ```bash
 # Install frontend dependencies
-cd frontend
+cd travel-story-app
 npm install
 
 # Install backend dependencies
-cd ../backend
+cd travel-story-app/backend
 npm install
 ```
 
@@ -71,11 +71,11 @@ PORT=5000
 4. Start the development servers
 ```bash
 # Start backend server
-cd backend
+cd travel-story-app/backend
 npm run dev
 
 # Start frontend server
-cd frontend
+cd travel-story-app
 npm run dev
 ```
 
