@@ -1,4 +1,4 @@
-# ![Logo](/travel-story-app/public/favicon.png) Travel Story
+# <img src="/travel-story-app/public/favicon.png" alt="logo" width="15px"/> Travel Story
 
 A beautiful web application for travelers to share and preserve their journey memories. Create, manage, and relive your travel experiences through stories, photos, and locations.
 
