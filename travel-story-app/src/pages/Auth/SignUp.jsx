@@ -60,26 +60,28 @@ const SignUp = () => {
 
 	return (
 		<div className="h-screen bg-cyan-50 overflow-hidden relative">
-			<div className="login-ui-box right-10 -top-40"></div>
-			<div className="login-ui-box bg-cyan-200 -bottom-40 right-1/2"></div>
+			<div className="login-ui-box right-10 -top-40 hidden lg:block"></div>
+			<div className="login-ui-box bg-cyan-200 -bottom-40 right-1/2 hidden lg:block"></div>
 
-			<div className="container h-screen flex items-center justify-center px-48 mx-auto">
-				<div className="w-2/4 h-[90vh] flex items-end bg-signup-bg-img bg-cover bg-center rounded-lg p-10 z-50">
+			<div className="container h-screen flex flex-wrap items-center justify-center px-4 sm:px-8 lg:px-48 mx-auto">
+				<div className="w-full lg:w-2/4 h-[40vh] lg:h-[90vh] flex items-end bg-signup-bg-img bg-cover bg-center rounded-lg p-5 lg:p-10 z-50 mb-4 lg:mb-0">
 					<div>
-						<h4 className="text-5xl text-white font-semibold leading-[58px]">
+						<h4 className="text-3xl lg:text-5xl text-white font-semibold leading-tight lg:leading-[58px]">
 							Join the <br />
 							Adventure
 						</h4>
-						<p className="text-[15px] text-white leading-6 pr-7 mt-4">
+						<p className="text-sm lg:text-[15px] text-white leading-5 lg:leading-6 mt-2 lg:mt-4 pr-3 lg:pr-7">
 							Record your travel experiences and memories in your personal
 							travel journal.
 						</p>
 					</div>
 				</div>
 
-				<div className="w-2/4 h-[75vh] bg-white rounded-r-lg relative p-16 shadow-lg shadow-cyan-200/20">
+				<div className="w-full lg:w-2/4 bg-white rounded-lg lg:rounded-r-lg relative p-8 lg:p-16 shadow-lg shadow-cyan-200/20">
 					<form onSubmit={handleSignUp}>
-						<h4 className="text-2xl font-semibold mb-7">SignUp</h4>
+						<h4 className="text-xl lg:text-2xl font-semibold mb-5 lg:mb-7">
+							SignUp
+						</h4>
 
 						<input
 							type="text"

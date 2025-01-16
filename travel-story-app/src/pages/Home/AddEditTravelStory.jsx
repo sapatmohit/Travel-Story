@@ -176,75 +176,93 @@ const AddEditTravelStory = ({
 	};
 
 	return (
-		<div className="relative">
-			<div className="flex items-center justify-between">
+		<div className="relative w-full max-w-4xl mx-auto p-4">
+			<div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
 				<h5 className="text-xl font-medium text-slate-700">
 					{type === 'add' ? 'Add Story' : 'Update Story'}
 				</h5>
-				<div>
-					<div className="flex items-center gap-3 bg-cyan-50/50 p-2 rounded-l-lg">
+
+				<button
+					className="absolute top-2 right-2 text-slate-700 p-2 rounded-full sm:block xl:hidden"
+					onClick={onClose}
+				>
+					<MdClose className="text-2xl" />
+				</button>
+
+				<div className="w-full sm:w-auto">
+					<div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 bg-cyan-50/50 p-2 rounded-lg">
 						{type === 'add' ? (
-							<button className="btn-small" onClick={handleAddOrUpdateClick}>
+							<button
+								className="btn-small w-full sm:w-auto flex items-center justify-center gap-2"
+								onClick={handleAddOrUpdateClick}
+							>
 								<MdAdd className="text-lg" /> ADD STORY
 							</button>
 						) : (
 							<>
-								<button className="btn-small" onClick={handleAddOrUpdateClick}>
+								<button
+									className="btn-small w-full sm:w-auto flex items-center justify-center gap-2"
+									onClick={handleAddOrUpdateClick}
+								>
 									<MdUpdate className="text-lg" /> UPDATE STORY
 								</button>
-
-								<button className="btn-small btn-delete" onClick={onClose}>
+								<button
+									className="btn-small btn-delete w-full sm:w-auto flex items-center justify-center gap-2"
+									onClick={onClose}
+								>
 									<MdDeleteOutline className="text-lg" /> DELETE
 								</button>
 							</>
 						)}
-						<button className="" onClick={onClose}>
+						<button className="hidden sm:block" onClick={onClose}>
 							<MdClose className="text-xl text-slate-400" />
 						</button>
 					</div>
 
 					{error && (
-						<p className="text-red-500 text-xs pt-2 text-right">{error}</p>
+						<p className="text-red-500 text-xs pt-2 text-left sm:text-right">
+							{error}
+						</p>
 					)}
 				</div>
 			</div>
 
-			<div>
-				<div className="flex flex-1 flex-col gap-2 pt-4">
+			<div className="space-y-6">
+				<div className="flex flex-col gap-2">
 					<label className="input-label">TITLE</label>
 					<input
 						type="text"
-						className="text-2xl text-slate-950 outline-none"
+						className="text-xl sm:text-2xl text-slate-950 outline-none w-full p-2 bg-slate-50 rounded"
 						placeholder="A Day at Great Wall"
 						value={title}
 						onChange={({ target }) => setTitle(target.value)}
 					/>
-					<div className="my-3">
-						<DateSelector date={visitedDate} setDate={setVisitedDate} />
-					</div>
+				</div>
 
-					<ImageSelector
-						image={storyImg}
-						setImage={setStoryImg}
-						handleDeleteImg={handleDeleteStoryImg}
+				<div>
+					<DateSelector date={visitedDate} setDate={setVisitedDate} />
+				</div>
+
+				<ImageSelector
+					image={storyImg}
+					setImage={setStoryImg}
+					handleDeleteImg={handleDeleteStoryImg}
+				/>
+
+				<div className="flex flex-col gap-2">
+					<label className="input-label">STORY</label>
+					<textarea
+						className="text-sm text-slate-950 outline-none bg-slate-50 p-4 rounded min-h-[200px] w-full"
+						placeholder="Your Story"
+						rows={10}
+						value={story}
+						onChange={({ target }) => setStory(target.value)}
 					/>
+				</div>
 
-					<div className="flex flex-col gap-2 mt-4">
-						<label className="input-label">STORY</label>
-						<textarea
-							type="text"
-							className="text-sm text-slate-950 outline-none bg-slate-50 p-2 rounded"
-							placeholder="Your Story"
-							rows={10}
-							value={story}
-							onChange={({ target }) => setStory(target.value)}
-						></textarea>
-					</div>
-
-					<div className="pt-3">
-						<label className="input-label">VISITED LOCATIONS</label>
-						<TagInput tags={visitedLocation} setTags={setVisitedLocation} />
-					</div>
+				<div>
+					<label className="input-label block mb-2">VISITED LOCATIONS</label>
+					<TagInput tags={visitedLocation} setTags={setVisitedLocation} />
 				</div>
 			</div>
 		</div>

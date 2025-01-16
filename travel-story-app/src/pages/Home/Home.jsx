@@ -1,7 +1,7 @@
 import moment from 'moment';
 import React, { useEffect, useState } from 'react';
 import { DayPicker } from 'react-day-picker';
-import { MdAdd } from 'react-icons/md';
+import { MdAdd, MdCalendarMonth, MdClose } from 'react-icons/md';
 import Modal from 'react-modal';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
@@ -36,6 +36,8 @@ const Home = () => {
 	const [filterType, setFilterType] = useState('');
 
 	const [dateRange, setDateRange] = useState({ from: null, to: null });
+
+	const [showMobileCalendar, setShowMobileCalendar] = useState(false);
 
 	// Get the current user information
 	const getUserInfo = async () => {
@@ -196,7 +198,7 @@ const Home = () => {
 				handleClearSearch={handleClearSearch}
 			/>
 
-			<div className="container mx-auto py-10 px-6">
+			<div className="container mx-auto py-4 sm:py-6 md:py-10 px-4 sm:px-6">
 				<FilterInfoTitle
 					filterType={filterType}
 					filterDates={dateRange}
@@ -205,10 +207,58 @@ const Home = () => {
 					}}
 				/>
 
-				<div className="flex gap-7">
-					<div className="flex-1">
+				{/* Mobile Calendar Toggle Button */}
+				<button
+					className="md:hidden w-full mb-4 p-3 flex items-center justify-between bg-white border border-slate-200 rounded-lg shadow-sm"
+					onClick={() => setShowMobileCalendar(!showMobileCalendar)}
+				>
+					<div className="flex items-center gap-2">
+						<MdCalendarMonth className="text-xl text-slate-600" />
+						<span className="text-sm font-medium">
+							{dateRange.from || dateRange.to
+								? 'Selected Date Range'
+								: 'Select Dates'}
+						</span>
+					</div>
+					{showMobileCalendar ? (
+						<MdClose className="text-xl text-slate-600" />
+					) : (
+						<span className="text-sm text-slate-600">
+							{dateRange.from && dateRange.to
+								? `${moment(dateRange.from).format('MMM D')} - ${moment(
+										dateRange.to
+								  ).format('MMM D')}`
+								: 'No dates selected'}
+						</span>
+					)}
+				</button>
+
+				{/* Mobile Calendar View */}
+				{showMobileCalendar && (
+					<div className="md:hidden mb-4">
+						<div className="bg-white border border-slate-200 shadow-lg shadow-slate-200/60 rounded-lg">
+							<div className="p-3">
+								<DayPicker
+									captionLayout="dropdown-buttons"
+									mode="range"
+									selected={dateRange}
+									onSelect={(day) => {
+										handleDayClick(day);
+										if (day.from && day.to) {
+											setShowMobileCalendar(false);
+										}
+									}}
+									pagedNavigation
+								/>
+							</div>
+						</div>
+					</div>
+				)}
+
+				<div className="flex flex-col md:flex-row gap-4 md:gap-7">
+					<div className="flex-1 order-2 md:order-1">
 						{allStories.length > 0 ? (
-							<div className="grid grid-cols-2 gap-4">
+							<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 								{allStories.map((iteam) => {
 									return (
 										<TravelStoryCard
@@ -232,7 +282,7 @@ const Home = () => {
 							/>
 						)}
 					</div>
-					<div className="w-[350px]">
+					<div className="hidden md:block w-[350px] order-1 md:order-2">
 						<div className="bg-white border border-slate-200 shadow-lg shadow-slate-200/60 rounded-lg">
 							<div className="p-3">
 								<DayPicker
@@ -256,6 +306,22 @@ const Home = () => {
 					overlay: {
 						backgroundColor: 'rgba(0, 0, 0, 0.2)',
 						zIndex: 999,
+						display: 'flex',
+						alignItems: 'center',
+						justifyContent: 'center',
+					},
+					content: {
+						position: 'relative',
+						inset: 'auto',
+						maxWidth: '90vw',
+						width: '600px',
+						maxHeight: '90vh',
+						margin: '20px',
+						overflow: 'auto',
+						padding: '20px',
+						borderRadius: '8px',
+						background: '#fff',
+						border: '1px solid #ccc',
 					},
 				}}
 				appElement={document.getElementById('root')}
@@ -283,6 +349,22 @@ const Home = () => {
 					overlay: {
 						backgroundColor: 'rgba(0, 0, 0, 0.2)',
 						zIndex: 999,
+						display: 'flex',
+						alignItems: 'center',
+						justifyContent: 'center',
+					},
+					content: {
+						position: 'relative',
+						inset: 'auto',
+						maxWidth: '90vw',
+						width: '600px',
+						maxHeight: '90vh',
+						margin: '20px',
+						overflow: 'auto',
+						padding: '20px',
+						borderRadius: '8px',
+						background: '#fff',
+						border: '1px solid #ccc',
 					},
 				}}
 				appElement={document.getElementById('root')}
@@ -304,7 +386,7 @@ const Home = () => {
 			</Modal>
 
 			<button
-				className="w-16 h-16 flex items-center justify-center rounded-full bg-primary hover:bg-cyan-400 fixed right-10 bottom-10"
+				className="w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center rounded-full bg-primary hover:bg-cyan-400 fixed right-4 bottom-4 sm:right-10 sm:bottom-10 shadow-lg"
 				onClick={() => {
 					setOpenAddEditModal({
 						isShown: true,
@@ -313,7 +395,7 @@ const Home = () => {
 					});
 				}}
 			>
-				<MdAdd className="text-[32px] text-white" />
+				<MdAdd className="text-2xl sm:text-[32px] text-white" />
 			</button>
 
 			<ToastContainer />
