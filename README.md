@@ -88,6 +88,8 @@ npm run dev
 
 ## 📸 Screenshots
 
+![Login](/Screenshots/login.png)
+![SignUp](/Screenshots/signup.png)
 ![Dashboard](/Screenshots/dashboard.png)
 ![Add Story](/Screenshots/addStory.png)
 ![Story View](/Screenshots/viewStory.png)
