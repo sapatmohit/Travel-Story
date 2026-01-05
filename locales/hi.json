@@ -1,0 +1,78 @@
+{
+  "add-edit-travel-story": {
+    "aDayAtGreatWall": "ग्रेट वॉल पर एक दिन",
+    "add": "जोड़े जा रहे हैं",
+    "addStory": "कहानी जोड़ें Add Story",
+    "addStory_2": "ADD STORY जोड़ें",
+    "delete": "डिलिट करें।",
+    "story": "कहानी कहानी।",
+    "title": "शीर्षक का शीर्षक",
+    "updateStory": "कहानी अद्यतन अद्यतन",
+    "updateStory_2": "UPDATE STORY को अपडेट करें",
+    "visitedLocations": "विजिट किए गए स्थान।",
+    "yourStory": "आपकी कहानी आपकी कहानी है"
+  },
+  "date-selector": {
+    "doMmmYyyy": "Do MMM YYYYY"
+  },
+  "filter-info-title": {
+    "search": "खोजें खोजें खोजें",
+    "searchResults": "Search Results Search Results खोज परिणाम खोजें",
+    "travelStoriesFrom": "Travel Stories from यात्रा की कहानियां"
+  },
+  "home": {
+    "mmmD": "MM DM MM DM",
+    "noDatesSelected": "कोई तारीखें नहीं चुनी गई",
+    "selectDates": "तारीखों का चयन करें।",
+    "selectedDateRange": "चयनित दिनांक रेंज"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "अपलोड करने के लिए छवि फ़ाइलों को ब्राउज़ करें।",
+    "selected": "Selected चुना गया।"
+  },
+  "login": {
+    "captureYour": "आपका कैप्चर आपका कैप्चर",
+    "createAccount": "एक खाता बनाएँ।",
+    "email": "ई-मेल ईमेल",
+    "journeys": "यात्राएं यात्राएं",
+    "login": "लॉगिन करें",
+    "login_2": "लॉगिन करें।",
+    "or": "या, या, या",
+    "recordYourTravelExperiencesAnd": "अपने व्यक्तिगत यात्रा डायरी में अपने यात्रा अनुभवों और यादों को रिकॉर्ड करें।"
+  },
+  "navbar": {
+    "travelStory": "यात्रा की कहानी यात्रा"
+  },
+  "password-input": {
+    "password": "पासवर्ड पासवर्ड"
+  },
+  "profile-info": {
+    "logout": "लोगोआउट"
+  },
+  "search-bar": {
+    "searchNotes": "खोज नोट्स"
+  },
+  "sign-up": {
+    "adventure": "रोमांचक साहसिक कार्य।",
+    "createLogin": "CREATE LOGIN का निर्माण करें।",
+    "email": "ई-मेल ईमेल",
+    "fullName": "पूरा नाम",
+    "joinThe": "Join the में शामिल हों।",
+    "login": "लॉगिन करें।",
+    "or": "या, या, या",
+    "recordYourTravelExperiencesAnd": "अपने व्यक्तिगत यात्रा डायरी में अपने यात्रा अनुभवों और यादों को रिकॉर्ड करें।",
+    "signup": "SignUp साइनअप करें"
+  },
+  "tag-input": {
+    "addLocation": "Add Location Add स्थान जोड़ें"
+  },
+  "travel-story-card": {
+    "doMmmYyyy": "Do MMM YYYYY"
+  },
+  "view-travel-story": {
+    "delete": "डिलिट करें।",
+    "doMmmYyyy": "Do MMM YYYYY",
+    "update": "UPDATE अपडेट करें।",
+    "updateStory": "UPDATE STORY को अपडेट करें"
+  }
+}
