@@ -1,0 +1,78 @@
+{
+  "add-edit-travel-story": {
+    "aDayAtGreatWall": "يوم في الحائط العظيم",
+    "add": "إضافة إضافة إضافة",
+    "addStory": "إضافة قصة",
+    "addStory_2": "إضافة القصة",
+    "delete": "إلغاء الحذف.",
+    "story": "قصة القصة.",
+    "title": "العنوان: العنوان.",
+    "updateStory": "قصة تحديث تحديث",
+    "updateStory_2": "قم بتحديث القصة.",
+    "visitedLocations": "أماكن زيارة",
+    "yourStory": "قصة قصتك"
+  },
+  "date-selector": {
+    "doMmmYyyy": "هل MMM YYYYY"
+  },
+  "filter-info-title": {
+    "search": "البحث عن البحث",
+    "searchResults": "نتائج البحث عن نتائج البحث",
+    "travelStoriesFrom": "قصص سفر من قصص السفر"
+  },
+  "home": {
+    "mmmD": "د.م.م.م د.م.م",
+    "noDatesSelected": "لا توجد تواريخ مختارة",
+    "selectDates": "حدد التواريخ.",
+    "selectedDateRange": "مجموعة التاريخ المحددة."
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "تصفح ملفات الصورة لتحميلها.",
+    "selected": "Selected مختارة"
+  },
+  "login": {
+    "captureYour": "تم القبض على القبض عليك.",
+    "createAccount": "قم بإنشاء الحساب",
+    "email": "الرسائل الإلكترونية",
+    "journeys": "رحلات الرحلات",
+    "login": "تسجيل الدخول",
+    "login_2": "إرسال اللوجين",
+    "or": "أو أو أو",
+    "recordYourTravelExperiencesAnd": "سجل تجارب السفر الخاصة بك والذكريات في مذكرات السفر الخاصة بك."
+  },
+  "navbar": {
+    "travelStory": "قصة السفر السفر"
+  },
+  "password-input": {
+    "password": "كلمة المرور كلمة المرور"
+  },
+  "profile-info": {
+    "logout": "شعار العلامة"
+  },
+  "search-bar": {
+    "searchNotes": "ملاحظات البحث"
+  },
+  "sign-up": {
+    "adventure": "المغامرة المغامرة.",
+    "createLogin": "قم بإنشاء العلامة التجارية.",
+    "email": "الرسائل الإلكترونية",
+    "fullName": "الاسم الكامل",
+    "joinThe": "انضم إلى المجموعة",
+    "login": "إرسال اللوجين",
+    "or": "أو أو أو",
+    "recordYourTravelExperiencesAnd": "سجل تجارب السفر الخاصة بك والذكريات في مذكرات السفر الخاصة بك.",
+    "signup": "تسجيل الدخول"
+  },
+  "tag-input": {
+    "addLocation": "إضافة الموقع إضافة الموقع"
+  },
+  "travel-story-card": {
+    "doMmmYyyy": "هل MMM YYYYY"
+  },
+  "view-travel-story": {
+    "delete": "إلغاء الحذف.",
+    "doMmmYyyy": "هل MMM YYYYY",
+    "update": "قم بتحديثها.",
+    "updateStory": "قم بتحديث القصة."
+  }
+}
