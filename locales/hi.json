@@ -1,0 +1,78 @@
+{
+  "filter-info-title": {
+    "search": "खोजें खोजें खोजें",
+    "searchResults": "Search Results Search Results खोज परिणाम खोजें",
+    "travelStoriesFrom": "Travel Stories from यात्रा की कहानियां"
+  },
+  "profile-info": {
+    "logout": "लोगोआउट"
+  },
+  "travel-story-card": {
+    "doMmmYyyy": "Do MMM YYYYY"
+  },
+  "date-selector": {
+    "doMmmYyyy": "Do MMM YYYYY"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "अपलोड करने के लिए छवि फ़ाइलों को ब्राउज़ करें।",
+    "selected": "Selected चुना गया।"
+  },
+  "password-input": {
+    "password": "पासवर्ड पासवर्ड"
+  },
+  "search-bar": {
+    "searchNotes": "खोज नोट्स"
+  },
+  "tag-input": {
+    "addLocation": "Add Location Add स्थान जोड़ें"
+  },
+  "navbar": {
+    "travelStory": "यात्रा की कहानी यात्रा"
+  },
+  "login": {
+    "captureYour": "आपका कैप्चर आपका कैप्चर",
+    "journeys": "यात्राएं यात्राएं",
+    "recordYourTravelExperiencesAnd": "अपने व्यक्तिगत यात्रा डायरी में अपने यात्रा अनुभवों और यादों को रिकॉर्ड करें।",
+    "login": "लॉगिन करें",
+    "email": "ई-मेल ईमेल",
+    "login_2": "लॉगिन करें।",
+    "or": "या, या, या",
+    "createAccount": "एक खाता बनाएँ।"
+  },
+  "sign-up": {
+    "joinThe": "Join the में शामिल हों।",
+    "adventure": "रोमांचक साहसिक कार्य।",
+    "recordYourTravelExperiencesAnd": "अपने व्यक्तिगत यात्रा डायरी में अपने यात्रा अनुभवों और यादों को रिकॉर्ड करें।",
+    "signup": "SignUp साइनअप करें",
+    "fullName": "पूरा नाम",
+    "email": "ई-मेल ईमेल",
+    "createLogin": "CREATE LOGIN का निर्माण करें।",
+    "or": "या, या, या",
+    "login": "लॉगिन करें।"
+  },
+  "add-edit-travel-story": {
+    "add": "जोड़े जा रहे हैं",
+    "addStory": "कहानी जोड़ें Add Story",
+    "updateStory": "कहानी अद्यतन अद्यतन",
+    "addStory_2": "ADD STORY जोड़ें",
+    "updateStory_2": "UPDATE STORY को अपडेट करें",
+    "delete": "डिलिट करें।",
+    "title": "शीर्षक का शीर्षक",
+    "aDayAtGreatWall": "ग्रेट वॉल पर एक दिन",
+    "story": "कहानी कहानी।",
+    "yourStory": "आपकी कहानी आपकी कहानी है",
+    "visitedLocations": "विजिट किए गए स्थान।"
+  },
+  "home": {
+    "selectedDateRange": "चयनित दिनांक रेंज",
+    "selectDates": "तारीखों का चयन करें।",
+    "mmmD": "MM DM MM DM",
+    "noDatesSelected": "कोई तारीखें नहीं चुनी गई"
+  },
+  "view-travel-story": {
+    "updateStory": "UPDATE STORY को अपडेट करें",
+    "update": "UPDATE अपडेट करें।",
+    "delete": "डिलिट करें।",
+    "doMmmYyyy": "Do MMM YYYYY"
+  }
+}

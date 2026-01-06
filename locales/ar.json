@@ -1,0 +1,78 @@
+{
+  "filter-info-title": {
+    "search": "البحث عن البحث",
+    "searchResults": "نتائج البحث عن نتائج البحث",
+    "travelStoriesFrom": "قصص سفر من قصص السفر"
+  },
+  "profile-info": {
+    "logout": "شعار العلامة"
+  },
+  "travel-story-card": {
+    "doMmmYyyy": "هل MMM YYYYY"
+  },
+  "date-selector": {
+    "doMmmYyyy": "هل MMM YYYYY"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "تصفح ملفات الصورة لتحميلها.",
+    "selected": "Selected مختارة"
+  },
+  "password-input": {
+    "password": "كلمة المرور كلمة المرور"
+  },
+  "search-bar": {
+    "searchNotes": "ملاحظات البحث"
+  },
+  "tag-input": {
+    "addLocation": "إضافة الموقع إضافة الموقع"
+  },
+  "navbar": {
+    "travelStory": "قصة السفر السفر"
+  },
+  "login": {
+    "captureYour": "تم القبض على القبض عليك.",
+    "journeys": "رحلات الرحلات",
+    "recordYourTravelExperiencesAnd": "سجل تجارب السفر الخاصة بك والذكريات في مذكرات السفر الخاصة بك.",
+    "login": "تسجيل الدخول",
+    "email": "الرسائل الإلكترونية",
+    "login_2": "إرسال اللوجين",
+    "or": "أو أو أو",
+    "createAccount": "قم بإنشاء الحساب"
+  },
+  "sign-up": {
+    "joinThe": "انضم إلى المجموعة",
+    "adventure": "المغامرة المغامرة.",
+    "recordYourTravelExperiencesAnd": "سجل تجارب السفر الخاصة بك والذكريات في مذكرات السفر الخاصة بك.",
+    "signup": "تسجيل الدخول",
+    "fullName": "الاسم الكامل",
+    "email": "الرسائل الإلكترونية",
+    "createLogin": "قم بإنشاء العلامة التجارية.",
+    "or": "أو أو أو",
+    "login": "إرسال اللوجين"
+  },
+  "add-edit-travel-story": {
+    "add": "إضافة إضافة إضافة",
+    "addStory": "إضافة قصة",
+    "updateStory": "قصة تحديث تحديث",
+    "addStory_2": "إضافة القصة",
+    "updateStory_2": "قم بتحديث القصة.",
+    "delete": "إلغاء الحذف.",
+    "title": "العنوان: العنوان.",
+    "aDayAtGreatWall": "يوم في الحائط العظيم",
+    "story": "قصة القصة.",
+    "yourStory": "قصة قصتك",
+    "visitedLocations": "أماكن زيارة"
+  },
+  "home": {
+    "selectedDateRange": "مجموعة التاريخ المحددة.",
+    "selectDates": "حدد التواريخ.",
+    "mmmD": "د.م.م.م د.م.م",
+    "noDatesSelected": "لا توجد تواريخ مختارة"
+  },
+  "view-travel-story": {
+    "updateStory": "قم بتحديث القصة.",
+    "update": "قم بتحديثها.",
+    "delete": "إلغاء الحذف.",
+    "doMmmYyyy": "هل MMM YYYYY"
+  }
+}
