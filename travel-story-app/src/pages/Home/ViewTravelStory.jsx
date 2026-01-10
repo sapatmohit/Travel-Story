@@ -1,33 +1,34 @@
+import { useTranslation } from "react-i18next";
 import moment from 'moment';
 import React from 'react';
 import { GrMapLocation } from 'react-icons/gr';
 import { MdClose, MdDeleteOutline, MdUpdate } from 'react-icons/md';
 
 const ViewTravelStory = ({
-	storyInfo,
-	onClose,
-	onEditClick,
-	onDeleteClick,
-}) => {
-	return (
-		<div className="relative max-w-full">
+  storyInfo,
+  onClose,
+  onEditClick,
+  onDeleteClick
+}) => {const { t } = useTranslation();
+  return (
+    <div className="relative max-w-full">
 			{/* Header Actions */}
 			<div className="flex items-center justify-end mb-2">
 				<div className="flex flex-wrap items-center gap-2 sm:gap-3 bg-cyan-50/50 p-2 rounded-l-lg">
 					<button
-						className="btn-small text-xs sm:text-sm flex items-center gap-1"
-						onClick={onEditClick}
-					>
+            className="btn-small text-xs sm:text-sm flex items-center gap-1"
+            onClick={onEditClick}>
+
 						<MdUpdate className="text-base sm:text-lg" />
-						<span className="hidden sm:inline">UPDATE STORY</span>
-						<span className="sm:hidden">UPDATE</span>
+						<span className="hidden sm:inline">{t("view-travel-story.updateStory")}</span>
+						<span className="sm:hidden">{t("view-travel-story.update")}</span>
 					</button>
 					<button
-						className="btn-small btn-delete text-xs sm:text-sm flex items-center gap-1"
-						onClick={onDeleteClick}
-					>
+            className="btn-small btn-delete text-xs sm:text-sm flex items-center gap-1"
+            onClick={onDeleteClick}>
+
 						<MdDeleteOutline className="text-base sm:text-lg" />
-						<span>DELETE</span>
+						<span>{t("view-travel-story.delete")}</span>
 					</button>
 					<button className="p-1" onClick={onClose}>
 						<MdClose className="text-lg sm:text-xl text-slate-400" />
@@ -59,10 +60,10 @@ const ViewTravelStory = ({
 				{/* Story Image */}
 				<div className="relative w-full aspect-video sm:h-[300px]">
 					<img
-						src={storyInfo?.imageUrl}
-						alt={storyInfo?.title}
-						className="absolute inset-0 w-full h-full object-cover rounded-lg"
-					/>
+            src={storyInfo?.imageUrl}
+            alt={storyInfo?.title}
+            className="absolute inset-0 w-full h-full object-cover rounded-lg" />
+
 				</div>
 
 				{/* Story Content */}
@@ -72,8 +73,8 @@ const ViewTravelStory = ({
 					</p>
 				</div>
 			</div>
-		</div>
-	);
+		</div>);
+
 };
 
 export default ViewTravelStory;
