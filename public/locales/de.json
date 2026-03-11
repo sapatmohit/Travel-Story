@@ -1,0 +1,79 @@
+{
+  "add-edit-travel-story": {
+    "aDayAtGreatWall": "Ein Tag an der Great Wall",
+    "add": "add",
+    "addStory": "Add Story",
+    "addStory_2": "ADD STORY",
+    "delete": "DELETE",
+    "story": "STORY",
+    "title": "TITLE",
+    "updateStory": "Update Story Update Story",
+    "updateStory_2": "UPDATE STORY",
+    "visitedLocations": "VISITED LOCATIONS",
+    "yourStory": "Deine Geschichte"
+  },
+  "date-selector": {
+    "doMmmYyyy": "Do MMM YYYYY"
+  },
+  "filter-info-title": {
+    "search": "search",
+    "searchResults": "Suchergebnisse",
+    "travelStoriesFrom": "Lateinische Reisegeschichten aus"
+  },
+  "home": {
+    "mmmD": "Lateinisch eng",
+    "noDatesSelected": "Keine Daten ausgewählt",
+    "selectDates": "Select Dates",
+    "selectedDateRange": "Selected Date Range"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "Browse Image-Dateien zum Hochladen",
+    "selected": "Selected"
+  },
+  "login": {
+    "captureYour": "Capture Your",
+    "createAccount": "CREATE ACCOUNT",
+    "email": "E-Mail",
+    "journeys": "Journeys",
+    "login": "Login",
+    "login_2": "LOGIN",
+    "or": "Oder",
+    "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerlebnisse und Erinnerungen in Ihrem persönlichen Reisejournal."
+  },
+  "navbar": {
+    "travelStory": "Reisegeschichte"
+  },
+  "password-input": {
+    "password": "Passwort Passwort"
+  },
+  "profile-info": {
+    "logout": "Logout"
+  },
+  "search-bar": {
+    "searchNotes": "Such Anmerkungen"
+  },
+  "sign-up": {
+    "adventure": "Adventure",
+    "createLogin": "CREATE LOGIN",
+    "email": "E-Mail",
+    "fullName": "Vollnamen",
+    "joinThe": "Beitreten Sie dem",
+    "login": "LOGIN",
+    "or": "Oder",
+    "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerlebnisse und Erinnerungen in Ihrem persönlichen Reisejournal.",
+    "signup": "SignUp"
+  },
+  "tag-input": {
+    "addLocation": "Add Location"
+  },
+  "travel-story-card": {
+    "doMmmYyyy": "Do MMM YYYYY",
+    "item": "{item},"
+  },
+  "view-travel-story": {
+    "delete": "DELETE",
+    "doMmmYyyy": "Do MMM YYYYY",
+    "update": "UPDATE",
+    "updateStory": "UPDATE STORY"
+  }
+}
