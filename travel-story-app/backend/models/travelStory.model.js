@@ -7,7 +7,7 @@ const travelStorySchema = new Schema({
   story: { type: String, requuired: true },
   visitedLocation: { type: [String], default: [] },
   isFavourite: { type: Boolean, default: false },
-  userId: { type: Schema.Types.ObjectId, ref: t("travel-storymodel.user"), required: true },
+  userId: { type: Schema.Types.ObjectId, ref: t("travel-storymodel.user_2"), required: true },
   createdOn: { type: Date, default: Date.now },
   imageUrl: { type: String, required: true },
   visitedDate: { type: Date, required: true }

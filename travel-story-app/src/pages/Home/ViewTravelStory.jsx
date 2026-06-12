@@ -20,15 +20,15 @@ const ViewTravelStory = ({
             onClick={onEditClick}>
 
 						<MdUpdate className="text-base sm:text-lg" />
-						<span className="hidden sm:inline">{t("view-travel-story.updateStory")}</span>
-						<span className="sm:hidden">{t("view-travel-story.update")}</span>
+						<span className="hidden sm:inline">{t("view-travel-story.updateStory_2")}</span>
+						<span className="sm:hidden">{t("view-travel-story.update_2")}</span>
 					</button>
 					<button
             className="btn-small btn-delete text-xs sm:text-sm flex items-center gap-1"
             onClick={onDeleteClick}>
 
 						<MdDeleteOutline className="text-base sm:text-lg" />
-						<span>{t("view-travel-story.delete")}</span>
+						<span>{t("view-travel-story.delete_2")}</span>
 					</button>
 					<button className="p-1" onClick={onClose}>
 						<MdClose className="text-lg sm:text-xl text-slate-400" />

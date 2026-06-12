@@ -13,9 +13,9 @@ export default [
     ecmaVersion: 2020,
     globals: globals.browser,
     parserOptions: {
-      ecmaVersion: t("eslintconfig.latest"),
+      ecmaVersion: t("eslintconfig.latest_2"),
       ecmaFeatures: { jsx: true },
-      sourceType: t("eslintconfig.module")
+      sourceType: t("eslintconfig.module_2")
     }
   },
   settings: { react: { version: '18.3' } },
@@ -29,7 +29,7 @@ export default [
     ...react.configs.recommended.rules,
     ...react.configs['jsx-runtime'].rules,
     ...reactHooks.configs.recommended.rules,
-    'react/jsx-no-target-blank': t("eslintconfig.off"),
+    'react/jsx-no-target-blank': t("eslintconfig.off_2"),
     'react-refresh/only-export-components': [
     'warn',
     { allowConstantExport: true }]

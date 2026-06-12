@@ -59,13 +59,13 @@ const ImageSelector = ({ image, setImage, handleDeleteImg }) => {const { t } = u
 					<div className="w-14 h-14 flex items-center justify-center bg-cyan-50 rounded-full border border-cyan-100">
 						<FaRegFileImage className="text-xl text-cyan-500" />
 					</div>
-					<p className="text-sm text-slate-500">{t("image-selector.browseImageFilesToUpload")}</p>
+					<p className="text-sm text-slate-500">{t("image-selector.browseImageFilesToUpload_2")}</p>
 				</button> :
 
       <div className="w-full relative">
 					<img
           src={previewUrl}
-          alt={t("image-selector.selected")}
+          alt={t("image-selector.selected_2")}
           className="w-full h-[300px] object-cover rounded-lg" />
 
 					<button

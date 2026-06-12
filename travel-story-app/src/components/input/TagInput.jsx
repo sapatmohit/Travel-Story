@@ -49,7 +49,7 @@ const TagInput = ({ tags, setTags }) => {const { t } = useTranslation();
           type="text"
           value={inputValue}
           className="text-sm bg-transparent border px-3 py-2 rounded outline-none"
-          placeholder={t("tag-input.addLocation")}
+          placeholder={t("tag-input.addLocation_2")}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown} />
 

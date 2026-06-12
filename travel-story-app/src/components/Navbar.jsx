@@ -43,7 +43,7 @@ const Navbar = ({
 					<div className="flex items-center">
 						<img
               src={LOGO}
-              alt={t("navbar.travelStory")}
+              alt={t("navbar.travelStory_2")}
               className="h-8 sm:h-10 lg:h-12 w-auto" />
 
 					</div>
