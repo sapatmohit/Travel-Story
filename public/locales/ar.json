@@ -1,0 +1,125 @@
+{
+  "tailwindconfig": {
+    "05b6d3_3": "#05B6D3",
+    "urlSrcAssetsImagesBgImageJpg_3": "url('./src/assets/images/bg-image.jpg')",
+    "urlSrcAssetsImagesSignupBgImageJpg_3": "url('./src/assets/images/signup-bg-image.jpg')"
+  },
+  "backend": {
+    "allFieldsAreRequired_3": "جميع المجالات مطلوبة",
+    "userAlreadyExists_3": "المستخدم موجود بالفعل",
+    "72h_3": "72 ساعة",
+    "registrationSuccessful_3": "التسجيل الناجح",
+    "userNotFound_3": "مستخدم لم يتم العثور عليه",
+    "invalidCredentials_3": "أوراق اعتماد غير صالحة",
+    "loginSuccessful_3": "تسجيل الدخول ناجح",
+    "noImageUploaded_3": "لا تم تحميل الصورة",
+    "imageurlParameterIsRequired_3": "مطلوب برنامج imageUrl",
+    "imageDeletedSuccessfully_3": "تم حذف الصورة بنجاح",
+    "imageNotFound_3": "الصورة لم تجدها",
+    "travelStoryAddedSuccessfully_3": "قصة السفر إضافة بنجاح",
+    "travelStoryNotFound_3": "قصة السفر لم تجدها",
+    "travelStoryUpdatedSuccessfully_3": "قصة السفر تم تحديثها بنجاح",
+    "travelStoryDeletedSuccessfully_3": "قصة السفر تم حذفها بنجاح",
+    "storyUpdatedSuccessfully_3": "تم تحديث القصة بنجاح",
+    "searchQueryIsRequired_3": "طلب البحث مطلوب",
+    "startAndEndDatesAre_3": "تاريخ البدء والانتهاء مطلوب"
+  },
+  "travel-storymodel": {
+    "user_3": "المستخدم"
+  },
+  "eslintconfig": {
+    "latest_3": "الأخيرة",
+    "module_3": "الوحدة",
+    "off_3": "إغلاق"
+  },
+  "upload-image": {
+    "multipartFormData_3": "البيانات المتعددة الأجزاء/الشكل"
+  },
+  "axios-instance": {
+    "applicationJson_3": "التطبيق/تطبيق"
+  },
+  "password-input": {
+    "password_3": "كلمة المرور"
+  },
+  "date-selector": {
+    "doMmmYyyy_3": "هل MMM YYY"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload_3": "متصفح ملفات الصور لتحميل",
+    "selected_3": "تم اختياره"
+  },
+  "search-bar": {
+    "searchNotes_3": "ملاحظات البحث"
+  },
+  "tag-input": {
+    "addLocation_3": "إضافة موقع"
+  },
+  "travel-story-card": {
+    "doMmmYyyy_3": "هل MMM YYY",
+    "item_3": "{item}،"
+  },
+  "profile-info": {
+    "logout_3": "التسجيلات"
+  },
+  "filter-info-title": {
+    "search_3": "البحث",
+    "searchResults_3": "نتائج البحث",
+    "travelStoriesFrom_3": "قصص السفر من"
+  },
+  "navbar": {
+    "travelStory_3": "قصة السفر"
+  },
+  "view-travel-story": {
+    "updateStory_3": "تحديث القصة",
+    "update_3": "تحديث",
+    "delete_3": "إزالة",
+    "doMmmYyyy_3": "هل MMM YYY"
+  },
+  "home": {
+    "selectedDateRange_3": "نطاق التاريخ المحدد",
+    "selectDates_3": "حدد التواريخ",
+    "noDatesSelected_3": "لم يتم اختيار أي تواريخ",
+    "mmmD_3": "MMM D"
+  },
+  "add-edit-travel-story": {
+    "addStory_5": "إضافة القصة",
+    "updateStory_5": "تحديث القصة",
+    "add_3": "إضافة",
+    "addStory_6": "قصة إضافية",
+    "updateStory_6": "تحديث القصة",
+    "delete_3": "إزالة",
+    "title_3": "العنوان",
+    "aDayAtGreatWall_3": "يوم في الحائط الكبير",
+    "story_3": "القصة",
+    "yourStory_3": "قصتك",
+    "visitedLocations_3": "أماكن زيارة"
+  },
+  "sign-up": {
+    "joinThe_3": "الانضمام إلى",
+    "adventure_3": "المغامرة",
+    "recordYourTravelExperiencesAnd_3": "سجل تجارب سفرك وذكرياتك في مذكرات سفرك الشخصية.",
+    "signup_3": "التسجيل",
+    "fullName_3": "الاسم الكامل",
+    "email_3": "البريد الإلكتروني",
+    "createLogin_3": "قم بإنشاء تسجيل دخول",
+    "or_3": "أو",
+    "login_3": "اللوجين"
+  },
+  "login": {
+    "captureYour_3": "أمسك بـ ()",
+    "journeys_3": "السفر",
+    "recordYourTravelExperiencesAnd_3": "سجل تجارب سفرك وذكرياتك في مذكرات سفرك الشخصية.",
+    "login_5": "الدخول",
+    "email_3": "البريد الإلكتروني",
+    "login_6": "اللوجين",
+    "or_3": "أو",
+    "createAccount_3": "إنشاء الحساب"
+  },
+  "_meta": {
+    "dir": "rtl",
+    "language": "ar"
+  },
+  "_metadata": {
+    "dir": "rtl"
+  }
+}

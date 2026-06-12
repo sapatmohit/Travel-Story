@@ -1,0 +1,122 @@
+{
+  "tailwindconfig": {
+    "05b6d3_3": "#05B6D3",
+    "urlSrcAssetsImagesBgImageJpg_3": "url('./src/assets/images/bg-image.jpg')",
+    "urlSrcAssetsImagesSignupBgImageJpg_3": "url('./src/assets/images/signup-bg-image.jpg')"
+  },
+  "backend": {
+    "allFieldsAreRequired_3": "सभी फ़ील्ड आवश्यक हैं",
+    "userAlreadyExists_3": "उपयोगकर्ता पहले से मौजूद है",
+    "72h_3": "72 घंटे",
+    "registrationSuccessful_3": "पंजीकरण सफल",
+    "userNotFound_3": "उपयोगकर्ता नहीं मिला",
+    "invalidCredentials_3": "अवैध प्रमाण पत्र",
+    "loginSuccessful_3": "लॉगिन सफल",
+    "noImageUploaded_3": "कोई छवि अपलोड नहीं की गई",
+    "imageurlParameterIsRequired_3": "imageUrl पैरामीटर आवश्यक है",
+    "imageDeletedSuccessfully_3": "छवि सफलतापूर्वक हटाई गई",
+    "imageNotFound_3": "छवि नहीं मिली",
+    "travelStoryAddedSuccessfully_3": "यात्रा कहानी सफलतापूर्वक जोड़ी गई",
+    "travelStoryNotFound_3": "यात्रा कहानी नहीं मिली",
+    "travelStoryUpdatedSuccessfully_3": "यात्रा कहानी सफलतापूर्वक अद्यतन",
+    "travelStoryDeletedSuccessfully_3": "यात्रा कहानी सफलतापूर्वक हटाई गई",
+    "storyUpdatedSuccessfully_3": "कहानी सफलतापूर्वक अद्यतन",
+    "searchQueryIsRequired_3": "खोज क्वेरी आवश्यक है",
+    "startAndEndDatesAre_3": "प्रारंभ और समाप्ति की तारीखें आवश्यक हैं"
+  },
+  "travel-storymodel": {
+    "user_3": "उपयोगकर्ता"
+  },
+  "eslintconfig": {
+    "latest_3": "नवीनतम",
+    "module_3": "मॉड्यूल",
+    "off_3": "बंद"
+  },
+  "upload-image": {
+    "multipartFormData_3": "मल्टी पार्ट/फॉर्म-डेटा"
+  },
+  "axios-instance": {
+    "applicationJson_3": "आवेदन/जॉसन"
+  },
+  "password-input": {
+    "password_3": "पासवर्ड"
+  },
+  "date-selector": {
+    "doMmmYyyy_3": "क्या MMM YYY"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload_3": "अपलोड करने के लिए छवि फ़ाइलें ब्राउज़",
+    "selected_3": "चयनित"
+  },
+  "search-bar": {
+    "searchNotes_3": "खोज नोट्स"
+  },
+  "tag-input": {
+    "addLocation_3": "स्थान जोड़ें"
+  },
+  "travel-story-card": {
+    "doMmmYyyy_3": "क्या MMM YYY",
+    "item_3": "{item},"
+  },
+  "profile-info": {
+    "logout_3": "लॉग आउट"
+  },
+  "filter-info-title": {
+    "search_3": "खोज",
+    "searchResults_3": "खोज परिणाम",
+    "travelStoriesFrom_3": "से यात्रा कहानियाँ"
+  },
+  "navbar": {
+    "travelStory_3": "यात्रा की कहानी"
+  },
+  "view-travel-story": {
+    "updateStory_3": "अद्यतन कहानी",
+    "update_3": "अद्यतन",
+    "delete_3": "हटाना",
+    "doMmmYyyy_3": "क्या MMM YYY"
+  },
+  "home": {
+    "selectedDateRange_3": "चयनित तिथि सीमा",
+    "selectDates_3": "दिनांक चुनें",
+    "noDatesSelected_3": "कोई तिथि नहीं चुनी गई",
+    "mmmD_3": "MMM D"
+  },
+  "add-edit-travel-story": {
+    "addStory_5": "कहानी जोड़ें",
+    "updateStory_5": "अद्यतन कहानी",
+    "add_3": "जोड़ना",
+    "addStory_6": "अतिरिक्त कहानी",
+    "updateStory_6": "अद्यतन कहानी",
+    "delete_3": "हटाना",
+    "title_3": "शीर्षक",
+    "aDayAtGreatWall_3": "महान दीवार पर एक दिन",
+    "story_3": "कहानी",
+    "yourStory_3": "आपकी कहानी",
+    "visitedLocations_3": "यात्रा की जाने वाली जगहें"
+  },
+  "sign-up": {
+    "joinThe_3": "में शामिल हों",
+    "adventure_3": "साहसिक",
+    "recordYourTravelExperiencesAnd_3": "अपनी यात्रा के अनुभवों और यादों को अपने व्यक्तिगत यात्रा डायरी में रिकॉर्ड करें",
+    "signup_3": "साइनअप",
+    "fullName_3": "पूरा नाम",
+    "email_3": "ईमेल",
+    "createLogin_3": "लॉगिन बनाएँ",
+    "or_3": "या",
+    "login_3": "लॉगिन"
+  },
+  "login": {
+    "captureYour_3": "अपने कैप्चर",
+    "journeys_3": "यात्राएँ",
+    "recordYourTravelExperiencesAnd_3": "अपनी यात्रा के अनुभवों और यादों को अपने व्यक्तिगत यात्रा डायरी में रिकॉर्ड करें",
+    "login_5": "लॉगिन",
+    "email_3": "ईमेल",
+    "login_6": "लॉगिन",
+    "or_3": "या",
+    "createAccount_3": "खाता बनाएँ"
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "hi"
+  }
+}
