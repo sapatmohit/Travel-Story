@@ -1,0 +1,122 @@
+{
+  "tailwindconfig": {
+    "05b6d3_2": "#05B6D3",
+    "urlSrcAssetsImagesBgImageJpg_2": "url('./src/assets/images/bg-image.jpg')",
+    "urlSrcAssetsImagesSignupBgImageJpg_2": "url('./src/assets/images/signup-bg-image.jpg')"
+  },
+  "backend": {
+    "allFieldsAreRequired_2": "All fields are required",
+    "userAlreadyExists_2": "User already exists",
+    "72h_2": "72h",
+    "registrationSuccessful_2": "Registration successful",
+    "userNotFound_2": "User not found",
+    "invalidCredentials_2": "Invalid Credentials",
+    "loginSuccessful_2": "Login successful",
+    "noImageUploaded_2": "No Image Uploaded",
+    "imageurlParameterIsRequired_2": "imageUrl parameter is required",
+    "imageDeletedSuccessfully_2": "Image deleted successfully",
+    "imageNotFound_2": "Image not found",
+    "travelStoryAddedSuccessfully_2": "Travel story added successfully",
+    "travelStoryNotFound_2": "Travel story not found",
+    "travelStoryUpdatedSuccessfully_2": "Travel story updated successfully",
+    "travelStoryDeletedSuccessfully_2": "Travel story deleted successfully",
+    "storyUpdatedSuccessfully_2": "Story updated successfully",
+    "searchQueryIsRequired_2": "Search query is required",
+    "startAndEndDatesAre_2": "Start and end dates are required"
+  },
+  "travel-storymodel": {
+    "user_2": "User"
+  },
+  "eslintconfig": {
+    "latest_2": "latest",
+    "module_2": "module",
+    "off_2": "off"
+  },
+  "upload-image": {
+    "multipartFormData_2": "multipart/form-data"
+  },
+  "axios-instance": {
+    "applicationJson_2": "application/json"
+  },
+  "password-input": {
+    "password_2": "Password"
+  },
+  "date-selector": {
+    "doMmmYyyy_2": "Do MMM YYYY"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload_2": "Browse image files to upload",
+    "selected_2": "Selected"
+  },
+  "search-bar": {
+    "searchNotes_2": "Search Notes"
+  },
+  "tag-input": {
+    "addLocation_2": "Add Location"
+  },
+  "travel-story-card": {
+    "doMmmYyyy_2": "Do MMM YYYY",
+    "item_2": "{item},"
+  },
+  "profile-info": {
+    "logout_2": "Logout"
+  },
+  "filter-info-title": {
+    "search_2": "search",
+    "searchResults_2": "Search Results",
+    "travelStoriesFrom_2": "Travel Stories from"
+  },
+  "navbar": {
+    "travelStory_2": "Travel Story"
+  },
+  "view-travel-story": {
+    "updateStory_2": "UPDATE STORY",
+    "update_2": "UPDATE",
+    "delete_2": "DELETE",
+    "doMmmYyyy_2": "Do MMM YYYY"
+  },
+  "home": {
+    "selectedDateRange_2": "Selected Date Range",
+    "selectDates_2": "Select Dates",
+    "noDatesSelected_2": "No dates selected",
+    "mmmD_2": "MMM D"
+  },
+  "add-edit-travel-story": {
+    "addStory_3": "Add Story",
+    "updateStory_3": "Update Story",
+    "add_2": "add",
+    "addStory_4": "ADD STORY",
+    "updateStory_4": "UPDATE STORY",
+    "delete_2": "DELETE",
+    "title_2": "TITLE",
+    "aDayAtGreatWall_2": "A Day at Great Wall",
+    "story_2": "STORY",
+    "yourStory_2": "Your Story",
+    "visitedLocations_2": "VISITED LOCATIONS"
+  },
+  "sign-up": {
+    "joinThe_2": "Join the",
+    "adventure_2": "Adventure",
+    "recordYourTravelExperiencesAnd_2": "Record your travel experiences and memories in your personal travel journal.",
+    "signup_2": "SignUp",
+    "fullName_2": "Full Name",
+    "email_2": "Email",
+    "createLogin_2": "CREATE LOGIN",
+    "or_2": "Or",
+    "login_2": "LOGIN"
+  },
+  "login": {
+    "captureYour_2": "Capture Your",
+    "journeys_2": "Journeys",
+    "recordYourTravelExperiencesAnd_2": "Record your travel experiences and memories in your personal travel journal.",
+    "login_3": "Login",
+    "email_2": "Email",
+    "login_4": "LOGIN",
+    "or_2": "Or",
+    "createAccount_2": "CREATE ACCOUNT"
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "hi"
+  }
+}

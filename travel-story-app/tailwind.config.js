@@ -1,24 +1,24 @@
-/** @type {import('tailwindcss').Config} */
+import { t } from "@/i18n"; /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-	theme: {
-		fontFamily: {
-			display: ['Poppins', 'sans-serif'],
-		},
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    fontFamily: {
+      display: ['Poppins', 'sans-serif']
+    },
 
-		extend: {
-			// Colors used in Project
-			colors: {
-				primary: '#05B6D3',
-				secondary: '#EF863E',
-			},
-			backgroundImage: {
-				'login-bg-img': "url('./src/assets/images/bg-image.jpg')",
-				'signup-bg-img': "url('./src/assets/images/signup-bg-image.jpg')",
-			},
-		},
-	},
-	plugins: [
-		require('tailwind-scrollbar'),
-	 ],
+    extend: {
+      // Colors used in Project
+      colors: {
+        primary: t("tailwindconfig.05b6d3_2"),
+        secondary: '#EF863E'
+      },
+      backgroundImage: {
+        'login-bg-img': t("tailwindconfig.urlSrcAssetsImagesBgImageJpg_2"),
+        'signup-bg-img': t("tailwindconfig.urlSrcAssetsImagesSignupBgImageJpg_2")
+      }
+    }
+  },
+  plugins: [
+  require('tailwind-scrollbar')]
+
 };
