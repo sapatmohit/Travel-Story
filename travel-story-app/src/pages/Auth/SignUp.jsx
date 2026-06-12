@@ -67,11 +67,11 @@ const SignUp = () => {const { t } = useTranslation();
 			<div className="container h-screen flex flex-wrap items-center justify-center px-4 sm:px-8 lg:px-48 mx-auto">
 				<div className="w-full lg:w-2/4 h-[40vh] lg:h-[90vh] flex items-end bg-signup-bg-img bg-cover bg-center rounded-lg p-5 lg:p-10 z-50 mb-4 lg:mb-0">
 					<div>
-						<h4 className="text-3xl lg:text-5xl text-white font-semibold leading-tight lg:leading-[58px]">{t("sign-up.joinThe")}
-              <br />{t("sign-up.adventure")}
+						<h4 className="text-3xl lg:text-5xl text-white font-semibold leading-tight lg:leading-[58px]">{t("sign-up.joinThe_3")}
+              <br />{t("sign-up.adventure_3")}
 
             </h4>
-						<p className="text-sm lg:text-[15px] text-white leading-5 lg:leading-6 mt-2 lg:mt-4 pr-3 lg:pr-7">{t("sign-up.recordYourTravelExperiencesAnd")}
+						<p className="text-sm lg:text-[15px] text-white leading-5 lg:leading-6 mt-2 lg:mt-4 pr-3 lg:pr-7">{t("sign-up.recordYourTravelExperiencesAnd_3")}
 
             </p>
 					</div>
@@ -79,13 +79,13 @@ const SignUp = () => {const { t } = useTranslation();
 
 				<div className="w-full lg:w-2/4 bg-white rounded-lg lg:rounded-r-lg relative p-8 lg:p-16 shadow-lg shadow-cyan-200/20">
 					<form onSubmit={handleSignUp}>
-						<h4 className="text-xl lg:text-2xl font-semibold mb-5 lg:mb-7">{t("sign-up.signup")}
+						<h4 className="text-xl lg:text-2xl font-semibold mb-5 lg:mb-7">{t("sign-up.signup_3")}
 
             </h4>
 
 						<input
               type="text"
-              placeholder={t("sign-up.fullName")}
+              placeholder={t("sign-up.fullName_3")}
               className="input-box"
               value={name}
               onChange={({ target }) => {
@@ -94,7 +94,7 @@ const SignUp = () => {const { t } = useTranslation();
 
 						<input
               type="text"
-              placeholder={t("sign-up.email")}
+              placeholder={t("sign-up.email_3")}
               className="input-box"
               value={email}
               onChange={({ target }) => {
@@ -109,18 +109,18 @@ const SignUp = () => {const { t } = useTranslation();
 
 						{error && <p className="text-red-500 text-xs pb-1">{error}</p>}
 
-						<button type="submit" className="btn-primary">{t("sign-up.createLogin")}
+						<button type="submit" className="btn-primary">{t("sign-up.createLogin_3")}
 
             </button>
 
-						<p className="text-xs text-slate-500 text-center my-4">{t("sign-up.or")}</p>
+						<p className="text-xs text-slate-500 text-center my-4">{t("sign-up.or_3")}</p>
 
 						<button
               type="button"
               className="btn-primary btn-light"
               onClick={() => {
                 navigate('/login');
-              }}>{t("sign-up.login")}
+              }}>{t("sign-up.login_3")}
 
             </button>
 					</form>

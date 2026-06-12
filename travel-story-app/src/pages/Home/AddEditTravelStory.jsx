@@ -197,7 +197,7 @@ const AddEditTravelStory = ({
               className="btn-small w-full sm:w-auto flex items-center justify-center gap-2"
               onClick={handleAddOrUpdateClick}>
 
-								<MdAdd className="text-lg" />{t("add-edit-travel-story.addStory_2")}
+								<MdAdd className="text-lg" />{t("add-edit-travel-story.addStory_6")}
             </button> :
 
             <>
@@ -205,13 +205,13 @@ const AddEditTravelStory = ({
                 className="btn-small w-full sm:w-auto flex items-center justify-center gap-2"
                 onClick={handleAddOrUpdateClick}>
 
-									<MdUpdate className="text-lg" />{t("add-edit-travel-story.updateStory_2")}
+									<MdUpdate className="text-lg" />{t("add-edit-travel-story.updateStory_6")}
               </button>
 								<button
                 className="btn-small btn-delete w-full sm:w-auto flex items-center justify-center gap-2"
                 onClick={onClose}>
 
-									<MdDeleteOutline className="text-lg" />{t("add-edit-travel-story.delete")}
+									<MdDeleteOutline className="text-lg" />{t("add-edit-travel-story.delete_3")}
               </button>
 							</>
             }
@@ -230,11 +230,11 @@ const AddEditTravelStory = ({
 
 			<div className="space-y-6">
 				<div className="flex flex-col gap-2">
-					<label className="input-label">{t("add-edit-travel-story.title")}</label>
+					<label className="input-label">{t("add-edit-travel-story.title_3")}</label>
 					<input
             type="text"
             className="text-xl sm:text-2xl text-slate-950 outline-none w-full p-2 bg-slate-50 rounded"
-            placeholder={t("add-edit-travel-story.aDayAtGreatWall")}
+            placeholder={t("add-edit-travel-story.aDayAtGreatWall_3")}
             value={title}
             onChange={({ target }) => setTitle(target.value)} />
 
@@ -250,10 +250,10 @@ const AddEditTravelStory = ({
           handleDeleteImg={handleDeleteStoryImg} />
 
 				<div className="flex flex-col gap-2">
-					<label className="input-label">{t("add-edit-travel-story.story")}</label>
+					<label className="input-label">{t("add-edit-travel-story.story_3")}</label>
 					<textarea
             className="text-sm text-slate-950 outline-none bg-slate-50 p-4 rounded min-h-[200px] w-full"
-            placeholder={t("add-edit-travel-story.yourStory")}
+            placeholder={t("add-edit-travel-story.yourStory_3")}
             rows={10}
             value={story}
             onChange={({ target }) => setStory(target.value)} />
@@ -261,7 +261,7 @@ const AddEditTravelStory = ({
 				</div>
 
 				<div>
-					<label className="input-label block mb-2">{t("add-edit-travel-story.visitedLocations")}</label>
+					<label className="input-label block mb-2">{t("add-edit-travel-story.visitedLocations_3")}</label>
 					<TagInput tags={visitedLocation} setTags={setVisitedLocation} />
 				</div>
 			</div>

@@ -5,118 +5,270 @@
   },
   "add-edit-travel-story": {
     "aDayAtGreatWall": "A Day at Great Wall",
+    "aDayAtGreatWall_2": "A Day at Great Wall",
     "add": "add",
     "addStory": "Add Story",
     "addStory_2": "ADD STORY",
+    "addStory_3": "Add Story",
+    "addStory_4": "ADD STORY",
+    "add_2": "add",
     "delete": "DELETE",
+    "delete_2": "DELETE",
     "story": "STORY",
+    "story_2": "STORY",
     "title": "TITLE",
+    "title_2": "TITLE",
     "updateStory": "Update Story",
     "updateStory_2": "UPDATE STORY",
+    "updateStory_3": "Update Story",
+    "updateStory_4": "UPDATE STORY",
     "visitedLocations": "VISITED LOCATIONS",
-    "yourStory": "Your Story"
+    "visitedLocations_2": "VISITED LOCATIONS",
+    "yourStory": "Your Story",
+    "yourStory_2": "Your Story",
+    "addStory_5": "Add Story",
+    "updateStory_5": "Update Story",
+    "add_3": "add",
+    "addStory_6": "ADD STORY",
+    "updateStory_6": "UPDATE STORY",
+    "delete_3": "DELETE",
+    "title_3": "TITLE",
+    "aDayAtGreatWall_3": "A Day at Great Wall",
+    "story_3": "STORY",
+    "yourStory_3": "Your Story",
+    "visitedLocations_3": "VISITED LOCATIONS"
   },
   "axios-instance": {
-    "applicationJson": "application/json"
+    "applicationJson": "application/json",
+    "applicationJson_2": "application/json",
+    "applicationJson_3": "application/json"
   },
   "backend": {
     "72h": "72h",
+    "72h_2": "72h",
     "allFieldsAreRequired": "All fields are required",
+    "allFieldsAreRequired_2": "All fields are required",
     "imageDeletedSuccessfully": "Image deleted successfully",
+    "imageDeletedSuccessfully_2": "Image deleted successfully",
     "imageNotFound": "Image not found",
+    "imageNotFound_2": "Image not found",
     "imageurlParameterIsRequired": "imageUrl parameter is required",
+    "imageurlParameterIsRequired_2": "imageUrl parameter is required",
     "invalidCredentials": "Invalid Credentials",
+    "invalidCredentials_2": "Invalid Credentials",
     "loginSuccessful": "Login successful",
+    "loginSuccessful_2": "Login successful",
     "noImageUploaded": "No Image Uploaded",
+    "noImageUploaded_2": "No Image Uploaded",
     "registrationSuccessful": "Registration successful",
+    "registrationSuccessful_2": "Registration successful",
     "searchQueryIsRequired": "Search query is required",
+    "searchQueryIsRequired_2": "Search query is required",
     "startAndEndDatesAre": "Start and end dates are required",
+    "startAndEndDatesAre_2": "Start and end dates are required",
     "storyUpdatedSuccessfully": "Story updated successfully",
+    "storyUpdatedSuccessfully_2": "Story updated successfully",
     "travelStoryAddedSuccessfully": "Travel story added successfully",
+    "travelStoryAddedSuccessfully_2": "Travel story added successfully",
     "travelStoryDeletedSuccessfully": "Travel story deleted successfully",
+    "travelStoryDeletedSuccessfully_2": "Travel story deleted successfully",
     "travelStoryNotFound": "Travel story not found",
+    "travelStoryNotFound_2": "Travel story not found",
     "travelStoryUpdatedSuccessfully": "Travel story updated successfully",
+    "travelStoryUpdatedSuccessfully_2": "Travel story updated successfully",
     "userAlreadyExists": "User already exists",
-    "userNotFound": "User not found"
+    "userAlreadyExists_2": "User already exists",
+    "userNotFound": "User not found",
+    "userNotFound_2": "User not found",
+    "allFieldsAreRequired_3": "All fields are required",
+    "userAlreadyExists_3": "User already exists",
+    "72h_3": "72h",
+    "registrationSuccessful_3": "Registration successful",
+    "userNotFound_3": "User not found",
+    "invalidCredentials_3": "Invalid Credentials",
+    "loginSuccessful_3": "Login successful",
+    "noImageUploaded_3": "No Image Uploaded",
+    "imageurlParameterIsRequired_3": "imageUrl parameter is required",
+    "imageDeletedSuccessfully_3": "Image deleted successfully",
+    "imageNotFound_3": "Image not found",
+    "travelStoryAddedSuccessfully_3": "Travel story added successfully",
+    "travelStoryNotFound_3": "Travel story not found",
+    "travelStoryUpdatedSuccessfully_3": "Travel story updated successfully",
+    "travelStoryDeletedSuccessfully_3": "Travel story deleted successfully",
+    "storyUpdatedSuccessfully_3": "Story updated successfully",
+    "searchQueryIsRequired_3": "Search query is required",
+    "startAndEndDatesAre_3": "Start and end dates are required"
   },
   "date-selector": {
-    "doMmmYyyy": "Do MMM YYYY"
+    "doMmmYyyy": "Do MMM YYYY",
+    "doMmmYyyy_2": "Do MMM YYYY",
+    "doMmmYyyy_3": "Do MMM YYYY"
   },
   "eslintconfig": {
     "latest": "latest",
+    "latest_2": "latest",
     "module": "module",
-    "off": "off"
+    "module_2": "module",
+    "off": "off",
+    "off_2": "off",
+    "latest_3": "latest",
+    "module_3": "module",
+    "off_3": "off"
   },
   "filter-info-title": {
     "search": "search",
     "searchResults": "Search Results",
-    "travelStoriesFrom": "Travel Stories from"
+    "searchResults_2": "Search Results",
+    "search_2": "search",
+    "travelStoriesFrom": "Travel Stories from",
+    "travelStoriesFrom_2": "Travel Stories from",
+    "search_3": "search",
+    "searchResults_3": "Search Results",
+    "travelStoriesFrom_3": "Travel Stories from"
   },
   "home": {
     "mmmD": "MMM D",
+    "mmmD_2": "MMM D",
     "noDatesSelected": "No dates selected",
+    "noDatesSelected_2": "No dates selected",
     "selectDates": "Select Dates",
-    "selectedDateRange": "Selected Date Range"
+    "selectDates_2": "Select Dates",
+    "selectedDateRange": "Selected Date Range",
+    "selectedDateRange_2": "Selected Date Range",
+    "selectedDateRange_3": "Selected Date Range",
+    "selectDates_3": "Select Dates",
+    "noDatesSelected_3": "No dates selected",
+    "mmmD_3": "MMM D"
   },
   "image-selector": {
     "browseImageFilesToUpload": "Browse image files to upload",
-    "selected": "Selected"
+    "browseImageFilesToUpload_2": "Browse image files to upload",
+    "selected": "Selected",
+    "selected_2": "Selected",
+    "browseImageFilesToUpload_3": "Browse image files to upload",
+    "selected_3": "Selected"
   },
   "login": {
     "captureYour": "Capture Your",
+    "captureYour_2": "Capture Your",
     "createAccount": "CREATE ACCOUNT",
+    "createAccount_2": "CREATE ACCOUNT",
     "email": "Email",
+    "email_2": "Email",
     "journeys": "Journeys",
+    "journeys_2": "Journeys",
     "login": "Login",
     "login_2": "LOGIN",
+    "login_3": "Login",
+    "login_4": "LOGIN",
     "or": "Or",
-    "recordYourTravelExperiencesAnd": "Record your travel experiences and memories in your personal travel journal."
+    "or_2": "Or",
+    "recordYourTravelExperiencesAnd": "Record your travel experiences and memories in your personal travel journal.",
+    "recordYourTravelExperiencesAnd_2": "Record your travel experiences and memories in your personal travel journal.",
+    "captureYour_3": "Capture Your",
+    "journeys_3": "Journeys",
+    "recordYourTravelExperiencesAnd_3": "Record your travel experiences and memories in your personal travel journal.",
+    "login_5": "Login",
+    "email_3": "Email",
+    "login_6": "LOGIN",
+    "or_3": "Or",
+    "createAccount_3": "CREATE ACCOUNT"
   },
   "navbar": {
-    "travelStory": "Travel Story"
+    "travelStory": "Travel Story",
+    "travelStory_2": "Travel Story",
+    "travelStory_3": "Travel Story"
   },
   "password-input": {
-    "password": "Password"
+    "password": "Password",
+    "password_2": "Password",
+    "password_3": "Password"
   },
   "profile-info": {
-    "logout": "Logout"
+    "logout": "Logout",
+    "logout_2": "Logout",
+    "logout_3": "Logout"
   },
   "search-bar": {
-    "searchNotes": "Search Notes"
+    "searchNotes": "Search Notes",
+    "searchNotes_2": "Search Notes",
+    "searchNotes_3": "Search Notes"
   },
   "sign-up": {
     "adventure": "Adventure",
+    "adventure_2": "Adventure",
     "createLogin": "CREATE LOGIN",
+    "createLogin_2": "CREATE LOGIN",
     "email": "Email",
+    "email_2": "Email",
     "fullName": "Full Name",
+    "fullName_2": "Full Name",
     "joinThe": "Join the",
+    "joinThe_2": "Join the",
     "login": "LOGIN",
+    "login_2": "LOGIN",
     "or": "Or",
+    "or_2": "Or",
     "recordYourTravelExperiencesAnd": "Record your travel experiences and memories in your personal travel journal.",
-    "signup": "SignUp"
+    "recordYourTravelExperiencesAnd_2": "Record your travel experiences and memories in your personal travel journal.",
+    "signup": "SignUp",
+    "signup_2": "SignUp",
+    "joinThe_3": "Join the",
+    "adventure_3": "Adventure",
+    "recordYourTravelExperiencesAnd_3": "Record your travel experiences and memories in your personal travel journal.",
+    "signup_3": "SignUp",
+    "fullName_3": "Full Name",
+    "email_3": "Email",
+    "createLogin_3": "CREATE LOGIN",
+    "or_3": "Or",
+    "login_3": "LOGIN"
   },
   "tag-input": {
-    "addLocation": "Add Location"
+    "addLocation": "Add Location",
+    "addLocation_2": "Add Location",
+    "addLocation_3": "Add Location"
   },
   "tailwindconfig": {
     "05b6d3": "#05B6D3",
+    "05b6d3_2": "#05B6D3",
     "urlSrcAssetsImagesBgImageJpg": "url('./src/assets/images/bg-image.jpg')",
-    "urlSrcAssetsImagesSignupBgImageJpg": "url('./src/assets/images/signup-bg-image.jpg')"
+    "urlSrcAssetsImagesBgImageJpg_2": "url('./src/assets/images/bg-image.jpg')",
+    "urlSrcAssetsImagesSignupBgImageJpg": "url('./src/assets/images/signup-bg-image.jpg')",
+    "urlSrcAssetsImagesSignupBgImageJpg_2": "url('./src/assets/images/signup-bg-image.jpg')",
+    "05b6d3_3": "#05B6D3",
+    "urlSrcAssetsImagesBgImageJpg_3": "url('./src/assets/images/bg-image.jpg')",
+    "urlSrcAssetsImagesSignupBgImageJpg_3": "url('./src/assets/images/signup-bg-image.jpg')"
   },
   "travel-story-card": {
     "doMmmYyyy": "Do MMM YYYY",
-    "item": "{item},"
+    "doMmmYyyy_2": "Do MMM YYYY",
+    "item": "{item},",
+    "item_2": "{item},",
+    "doMmmYyyy_3": "Do MMM YYYY",
+    "item_3": "{item},"
   },
   "travel-storymodel": {
-    "user": "User"
+    "user": "User",
+    "user_2": "User",
+    "user_3": "User"
   },
   "upload-image": {
-    "multipartFormData": "multipart/form-data"
+    "multipartFormData": "multipart/form-data",
+    "multipartFormData_2": "multipart/form-data",
+    "multipartFormData_3": "multipart/form-data"
   },
   "view-travel-story": {
     "delete": "DELETE",
+    "delete_2": "DELETE",
     "doMmmYyyy": "Do MMM YYYY",
+    "doMmmYyyy_2": "Do MMM YYYY",
     "update": "UPDATE",
-    "updateStory": "UPDATE STORY"
+    "updateStory": "UPDATE STORY",
+    "updateStory_2": "UPDATE STORY",
+    "update_2": "UPDATE",
+    "updateStory_3": "UPDATE STORY",
+    "update_3": "UPDATE",
+    "delete_3": "DELETE",
+    "doMmmYyyy_3": "Do MMM YYYY"
   }
 }
