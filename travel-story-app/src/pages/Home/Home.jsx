@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import moment from 'moment';
 import React, { useEffect, useState } from 'react';
 import { DayPicker } from 'react-day-picker';
@@ -16,6 +17,7 @@ import AddEditTravelStory from './AddEditTravelStory';
 import ViewTravelStory from './ViewTravelStory';
 
 const Home = () => {
+	const { t } = useTranslation();
 	const navigate = useNavigate();
 	const [userInfo, setUserInfo] = useState(null);
 	const [allStories, setAllStories] = useState([]);
@@ -216,8 +218,8 @@ const Home = () => {
 						<MdCalendarMonth className="text-xl text-slate-600" />
 						<span className="text-sm font-medium">
 							{dateRange.from || dateRange.to
-								? 'Selected Date Range'
-								: 'Select Dates'}
+								? t("home.selectedDateRange")
+								: t("home.selectDates")}
 						</span>
 					</div>
 					{showMobileCalendar ? (
@@ -228,7 +230,7 @@ const Home = () => {
 								? `${moment(dateRange.from).format('MMM D')} - ${moment(
 										dateRange.to
 								  ).format('MMM D')}`
-								: 'No dates selected'}
+								: t("home.noDatesSelected")}
 						</span>
 					)}
 				</button>

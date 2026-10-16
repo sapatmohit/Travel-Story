@@ -1,0 +1,101 @@
+{
+  "travel-story-card": {
+    "item": "{item},"
+  },
+  "indexhtml": {
+    "travelStory": "Reisverhaal"
+  },
+  "backend": {
+    "allFieldsAreRequired": "Alle velden zijn vereist",
+    "userAlreadyExists": "Gebruiker bestaat al",
+    "registrationSuccessful": "Registratie succesvol",
+    "allFieldsAreRequired_2": "Alle velden zijn vereist",
+    "userNotFound": "Gebruiker niet gevonden",
+    "invalidCredentials": "Invalide referenties",
+    "loginSuccessful": "Login succesvol",
+    "noImageUploaded": "Geen afbeelding geüpload",
+    "imageurlParameterIsRequired": "ImageUrl-parameter is vereist",
+    "imageDeletedSuccessfully": "Afbeelding met succes verwijderd",
+    "imageNotFound": "Afbeelding niet gevonden",
+    "allFieldsAreRequired_3": "Alle velden zijn vereist",
+    "travelStoryAddedSuccessfully": "Reisverhaal met succes toegevoegd",
+    "allFieldsAreRequired_4": "Alle velden zijn vereist",
+    "travelStoryNotFound": "Reisverhaal niet gevonden",
+    "travelStoryUpdatedSuccessfully": "Reisverhaal met succes bijgewerkt",
+    "travelStoryNotFound_2": "Reisverhaal niet gevonden",
+    "travelStoryDeletedSuccessfully": "Reisverhaal met succes verwijderd",
+    "travelStoryNotFound_3": "Reisverhaal niet gevonden",
+    "storyUpdatedSuccessfully": "Geschiedenis met succes bijgewerkt",
+    "searchQueryIsRequired": "Zoekvraag is vereist",
+    "startAndEndDatesAre": "Start- en einddatums zijn vereist"
+  },
+  "password-input": {
+    "password": "Passwoord:"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "Browse beeldbestanden om te uploaden",
+    "selected": "Geselecteerd"
+  },
+  "search-bar": {
+    "searchNotes": "Zoek notities"
+  },
+  "tag-input": {
+    "addLocation": "Voeg plaats toe"
+  },
+  "profile-info": {
+    "logout": "Logout"
+  },
+  "filter-info-title": {
+    "searchResults": "Zoekresultaten",
+    "travelStoriesFrom": "Reisverhalen van"
+  },
+  "navbar": {
+    "travelStory": "Reisverhaal"
+  },
+  "view-travel-story": {
+    "updateStory": "UPDATE VERHAAL",
+    "update": "UPDATE",
+    "delete": "DELETE"
+  },
+  "home": {
+    "selectedDateRange": "Geselecteerd datumbereik",
+    "selectDates": "Selecteer Dates",
+    "noDatesSelected": "Geen datum geselecteerd"
+  },
+  "add-edit-travel-story": {
+    "addStory": "Voeg het verhaal toe",
+    "updateStory": "Update verhaal",
+    "addStory_2": "ADD STORY",
+    "updateStory_2": "[#0} UPDATE STORY] UPDATE STORY",
+    "delete": "DELETE",
+    "title": "TITEL:",
+    "aDayAtGreatWall": "Een dag bij de Grote Muur",
+    "story": "VERHAAL",
+    "yourStory": "Uw verhaal",
+    "visitedLocations": "Bekijk de locaties"
+  },
+  "sign-up": {
+    "joinThe": "Doe mee aan het avontuur",
+    "adventure": "Doe mee aan het avontuur",
+    "recordYourTravelExperiencesAnd": "Schrijf uw reis ervaringen en herinneringen op in uw persoonlijke reisdagboek.",
+    "signup": "Aanmelding",
+    "fullName": "Volledige naam",
+    "email": "E-mail",
+    "createLogin": "CREATE LOGIN",
+    "or": "Of het is niet zo",
+    "login": "LOGIN"
+  },
+  "login": {
+    "journeys": "reizen",
+    "recordYourTravelExperiencesAnd": "Schrijf uw reis ervaringen en herinneringen op in uw persoonlijke reisdagboek.",
+    "login": "Login",
+    "email": "E-mail",
+    "login_2": "LOGIN",
+    "or": "Of het is niet zo",
+    "createAccount": "STOP een account aan"
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "nl"
+  }
+}
