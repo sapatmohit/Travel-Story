@@ -1,0 +1,100 @@
+{
+  "travel-story-card": {
+    "item": "{item},"
+  },
+  "indexhtml": {
+    "travelStory": "Historia podróży"
+  },
+  "backend": {
+    "allFieldsAreRequired": "Wszystkie pola są wymagane",
+    "userAlreadyExists": "Użytkownik już istnieje",
+    "registrationSuccessful": "Rejestracja udała się",
+    "allFieldsAreRequired_2": "Wszystkie pola są wymagane",
+    "userNotFound": "Użytkownik nie znaleziony",
+    "invalidCredentials": "Nieważne dokumenty uwierzytelniające",
+    "loginSuccessful": "Login pomyślny",
+    "noImageUploaded": "Żadnego obrazu przesłanego",
+    "imageurlParameterIsRequired": "wymagany jest parametr imageUrl",
+    "imageDeletedSuccessfully": "Zdjęcie usunięte z powodzeniem",
+    "imageNotFound": "Obraz nie znaleziony",
+    "allFieldsAreRequired_3": "Wszystkie pola są wymagane",
+    "travelStoryAddedSuccessfully": "Historia podróży została z powodzeniem dodana",
+    "allFieldsAreRequired_4": "Wszystkie pola są wymagane",
+    "travelStoryNotFound": "Nie znaleziono historii podróży",
+    "travelStoryUpdatedSuccessfully": "Historia podróży z powodzeniem zaktualizowana",
+    "travelStoryNotFound_2": "Nie znaleziono historii podróży",
+    "travelStoryDeletedSuccessfully": "Historia podróży usunięta z powodzeniem",
+    "travelStoryNotFound_3": "Nie znaleziono historii podróży",
+    "storyUpdatedSuccessfully": "Historia z powodzeniem zaktualizowana",
+    "searchQueryIsRequired": "Wymagane jest wyszukiwanie",
+    "startAndEndDatesAre": "Są wymagane daty rozpoczęcia i zakończenia"
+  },
+  "password-input": {
+    "password": "Hasło"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "Przeglądaj pliki obrazowe do przesyłania",
+    "selected": "Wybrany"
+  },
+  "search-bar": {
+    "searchNotes": "Zapisy wyszukiwania"
+  },
+  "tag-input": {
+    "addLocation": "Dodaj lokalizację"
+  },
+  "profile-info": {
+    "logout": "Wyloguj"
+  },
+  "filter-info-title": {
+    "searchResults": "Wyniki wyszukiwania",
+    "travelStoriesFrom": "Opowieści o podróży"
+  },
+  "navbar": {
+    "travelStory": "Historia podróży"
+  },
+  "view-travel-story": {
+    "updateStory": ":",
+    "update": "AKTUALIZUJ",
+    "delete": "USUŃ"
+  },
+  "home": {
+    "selectedDateRange": "Wybrany zakres dat",
+    "selectDates": "Wybierz daty",
+    "noDatesSelected": "Nie wybrano daty"
+  },
+  "add-edit-travel-story": {
+    "addStory": "Dodaj historię",
+    "updateStory": "Aktualizacja Historia",
+    "delete": "USUŃ",
+    "title": "TYTUŁ",
+    "aDayAtGreatWall": "Dzień na Wielkim Murze",
+    "story": "Opowieść",
+    "yourStory": "Twoja historia",
+    "visitedLocations": "ZOWIEDZENIE LOCALNE"
+  },
+  "sign-up": {
+    "joinThe": "Dołącz do przygody",
+    "adventure": "Dołącz do przygody",
+    "recordYourTravelExperiencesAnd": "Zapisz swoje doświadczenia podróży i wspomnienia w swoim dzienniku podróży.",
+    "signup": "Zapisać się",
+    "fullName": "Imię i nazwisko",
+    "email": "E-mail",
+    "createLogin": "CREATE LOGIN",
+    "or": "lub",
+    "login": "LOGOWANIE"
+  },
+  "login": {
+    "captureYour": "Złap swoją podróż",
+    "journeys": "podróże",
+    "recordYourTravelExperiencesAnd": "Zapisz swoje doświadczenia podróży i wspomnienia w swoim dzienniku podróży.",
+    "login": "Logowanie",
+    "email": "E-mail",
+    "login_2": "LOGOWANIE",
+    "or": "lub",
+    "createAccount": "UTWÓRZ KONTO"
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "pl"
+  }
+}

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import moment from 'moment/moment';
 import React from 'react';
 import { FaHeart } from 'react-icons/fa';
@@ -14,6 +15,7 @@ const TravelStoryCard = ({
 	onClick,
 	onFavouriteToggle,
 }) => {
+	const { t } = useTranslation();
 	return (
 		<div className="border rounded-lg overflow-hidden bg-white hover:shadow-lg hover:shadow-slate-200 transition-all ease-in-out relative cursor-pointer">
 			<img
@@ -46,7 +48,7 @@ const TravelStoryCard = ({
 				<div className="inline-flex items-center gap-2 text-[13px] text-cyan-600 bg-cyan-200/40 rounded mt-3 px-2 py-1">
 					<GrMapLocation className="text-sm" />
 					{visitedLocation.map((item, index) =>
-						visitedLocation.length == index + 1 ? `${item}` : `${item},`
+						visitedLocation.length == index + 1 ? `${item}` : t("travel-story-card.item", { item })
 					)}
 				</div>
 			</div>

@@ -1,0 +1,101 @@
+{
+  "travel-story-card": {
+    "item": "{item},"
+  },
+  "indexhtml": {
+    "travelStory": "Storia di viaggio"
+  },
+  "backend": {
+    "allFieldsAreRequired": "Tutti i campi sono necessari",
+    "userAlreadyExists": "L'utente esiste già",
+    "registrationSuccessful": "La registrazione è riuscita",
+    "allFieldsAreRequired_2": "Tutti i campi sono necessari",
+    "userNotFound": "Utente non trovato",
+    "invalidCredentials": "Credenziali invalidi",
+    "loginSuccessful": "Login con successo",
+    "noImageUploaded": "Nessuna immagine caricata",
+    "imageurlParameterIsRequired": "ImageUrl parametro è richiesto",
+    "imageDeletedSuccessfully": "Immagine cancellata con successo",
+    "imageNotFound": "Immagine non trovata",
+    "allFieldsAreRequired_3": "Tutti i campi sono necessari",
+    "travelStoryAddedSuccessfully": "Storia di viaggio aggiunta con successo",
+    "allFieldsAreRequired_4": "Tutti i campi sono necessari",
+    "travelStoryNotFound": "Storia di viaggio non trovata",
+    "travelStoryUpdatedSuccessfully": "Storia di viaggio aggiornata con successo",
+    "travelStoryNotFound_2": "Storia di viaggio non trovata",
+    "travelStoryDeletedSuccessfully": "La storia del viaggio è stata cancellata con successo",
+    "travelStoryNotFound_3": "Storia di viaggio non trovata",
+    "storyUpdatedSuccessfully": "Storia aggiornata con successo",
+    "searchQueryIsRequired": "È necessario effettuare una ricerca",
+    "startAndEndDatesAre": "Sono necessarie le date di inizio e fine"
+  },
+  "password-input": {
+    "password": "Password"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "Scopri i file di immagini da caricare",
+    "selected": "Selezionato"
+  },
+  "search-bar": {
+    "searchNotes": "Notte di ricerca"
+  },
+  "tag-input": {
+    "addLocation": "Aggiungere Località"
+  },
+  "profile-info": {
+    "logout": "Esci"
+  },
+  "filter-info-title": {
+    "searchResults": "Risultati della ricerca",
+    "travelStoriesFrom": "Storie di viaggio di"
+  },
+  "navbar": {
+    "travelStory": "Storia di viaggio"
+  },
+  "view-travel-story": {
+    "updateStory": "STORIA aggiornata",
+    "update": "AGGIORNA",
+    "delete": "ELIMINA"
+  },
+  "home": {
+    "selectedDateRange": "Intervallo di data selezionato",
+    "selectDates": "Selezionare le date",
+    "noDatesSelected": "Nessuna data selezionata"
+  },
+  "add-edit-travel-story": {
+    "addStory": "Aggiungere Storia",
+    "updateStory": "Aggiornamento Storia",
+    "addStory_2": "[#0} ADD STORY] ADD STORY",
+    "updateStory_2": "UPDATE STORE",
+    "delete": "ELIMINA",
+    "title": "TITOLO",
+    "aDayAtGreatWall": "Un giorno alla Grande Muraglia",
+    "story": "STORIA",
+    "yourStory": "La tua storia",
+    "visitedLocations": "LUOGHE VISITATE"
+  },
+  "sign-up": {
+    "joinThe": "Unisciti all'avventura",
+    "recordYourTravelExperiencesAnd": "Registrate le vostre esperienze di viaggio e i vostri ricordi nel vostro diario di viaggio personale.",
+    "signup": "Iscrizione",
+    "fullName": "Nome completo",
+    "email": "Email",
+    "createLogin": "CREATE LOGIN",
+    "or": "oppure",
+    "login": "ACCESSO"
+  },
+  "login": {
+    "captureYour": "Captura i tuoi viaggi",
+    "journeys": "Viaggi",
+    "recordYourTravelExperiencesAnd": "Registrate le vostre esperienze di viaggio e i vostri ricordi nel vostro diario di viaggio personale.",
+    "login": "Accesso",
+    "email": "Email",
+    "login_2": "ACCESSO",
+    "or": "oppure",
+    "createAccount": "CREA ACCOUNT"
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "it"
+  }
+}
