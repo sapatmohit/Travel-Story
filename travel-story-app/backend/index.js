@@ -1,3 +1,5 @@
+import { t } from "../../i18n";
+
 require('dotenv').config();
 
 const config = require('./config.json');
@@ -28,14 +30,14 @@ app.post('/create-account', async (req, res) => {
 	if (!fullName || !email || !password) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'All fields are required' });
+			.json({ error: true, message: t("backend.allFieldsAreRequired") });
 	}
 
 	const isUser = await User.findOne({ email });
 	if (isUser) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'User already exists' });
+			.json({ error: true, message: t("backend.userAlreadyExists") });
 	}
 
 	const hashedPassword = await bcrypt.hash(password, 10);
@@ -60,7 +62,7 @@ app.post('/create-account', async (req, res) => {
 		error: false,
 		user: { fullName: user.fullName, email: user.email },
 		accessToken,
-		message: 'Registration successful',
+		message: t("backend.registrationSuccessful"),
 	});
 });
 
@@ -71,19 +73,19 @@ app.post('/login', async (req, res) => {
 	if (!email || !password) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'All fields are required' });
+			.json({ error: true, message: t("backend.allFieldsAreRequired_2") });
 	}
 
 	const user = await User.findOne({ email });
 	if (!user) {
-		return res.status(400).json({ error: true, message: 'User not found' });
+		return res.status(400).json({ error: true, message: t("backend.userNotFound") });
 	}
 
 	const isPasswordValid = await bcrypt.compare(password, user.password);
 	if (!isPasswordValid) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'Invalid Credentials' });
+			.json({ error: true, message: t("backend.invalidCredentials") });
 	}
 
 	const accessToken = jwt.sign(
@@ -98,7 +100,7 @@ app.post('/login', async (req, res) => {
 		error: false,
 		user: { fullName: user.fullName, email: user.email },
 		accessToken,
-		message: 'Login successful',
+		message: t("backend.loginSuccessful"),
 	});
 });
 
@@ -122,7 +124,7 @@ app.get('/get-user', authenticateToken, async (req, res) => {
 app.post('/image-upload', upload.single('image'), async (req, res) => {
 	try {
 		if (!req.file) {
-			res.status(400).json({ error: true, message: 'No Image Uploaded' });
+			res.status(400).json({ error: true, message: t("backend.noImageUploaded") });
 		}
 
 		const imageUrl = `http://localhost:8000/uploads/${req.file.filename}`;
@@ -141,7 +143,7 @@ app.delete('/delete-image', async function (req, res) {
 	if (!imageUrl) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'imageUrl parameter is required' });
+			.json({ error: true, message: t("backend.imageurlParameterIsRequired") });
 	}
 
 	try {
@@ -155,9 +157,9 @@ app.delete('/delete-image', async function (req, res) {
 		if (fs.existsSync(filepath)) {
 			// Delete the file from the upload folder
 			fs.unlinkSync(filepath);
-			res.status(200).json({ message: 'Image deleted successfully' });
+			res.status(200).json({ message: t("backend.imageDeletedSuccessfully") });
 		} else {
-			res.status(404).json({ error: true, message: 'Image not found' });
+			res.status(404).json({ error: true, message: t("backend.imageNotFound") });
 		}
 	} catch (error) {
 		res.status(500).json({ error: true, message: error.message });
@@ -179,7 +181,7 @@ app.post('/add-travel-story', authenticateToken, async (req, res) => {
 	if (!title || !story || !visitedLocation || !imageUrl || !visitedDate) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'All fields are required' });
+			.json({ error: true, message: t("backend.allFieldsAreRequired_3") });
 	}
 
 	// Convert visitedDate from milliseconds to Data object
@@ -198,7 +200,7 @@ app.post('/add-travel-story', authenticateToken, async (req, res) => {
 		return res.status(201).json({
 			error: false,
 			story: travelStory,
-			message: 'Travel story added successfully',
+			message: t("backend.travelStoryAddedSuccessfully"),
 		});
 	} catch (error) {
 		res.status(400).json({ error: true, message: error.message });
@@ -229,7 +231,7 @@ app.put('/edit-story/:id', authenticateToken, async (req, res) => {
 	if (!title || !story || !visitedLocation || !visitedDate) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'All fields are required' });
+			.json({ error: true, message: t("backend.allFieldsAreRequired_4") });
 	}
 
 	// Convert visitedDate from milliseconds to Date object
@@ -242,7 +244,7 @@ app.put('/edit-story/:id', authenticateToken, async (req, res) => {
 		if (!travelStory) {
 			return res
 				.status(404)
-				.json({ error: true, message: 'Travel story not found' });
+				.json({ error: true, message: t("backend.travelStoryNotFound") });
 		}
 
 		const placeholderImgUrl = 'https://localhost:8000/assets/placeholder.png';
@@ -257,7 +259,7 @@ app.put('/edit-story/:id', authenticateToken, async (req, res) => {
 		await travelStory.save();
 		res.status(200).json({
 			story: travelStory,
-			message: 'Travel story updated successfully',
+			message: t("backend.travelStoryUpdatedSuccessfully"),
 		});
 	} catch (error) {
 		res.status(500).json({ error: true, message: error.message });
@@ -276,7 +278,7 @@ app.delete('/delete-story/:id', authenticateToken, async (req, res) => {
 		if (!travelStory) {
 			return res
 				.status(404)
-				.json({ error: true, message: 'Travel story not found' });
+				.json({ error: true, message: t("backend.travelStoryNotFound_2") });
 		}
 
 		// Delete the travel story from the database
@@ -297,7 +299,7 @@ app.delete('/delete-story/:id', authenticateToken, async (req, res) => {
 				// if you don't want to treat this as a critical error
 			}
 		});
-		res.status(200).json({ message: 'Travel story deleted successfully' });
+		res.status(200).json({ message: t("backend.travelStoryDeletedSuccessfully") });
 	} catch (error) {
 		res.status(500).json({ error: true, message: error.message });
 	}
@@ -316,14 +318,14 @@ app.put('/update-is-favourite/:id', authenticateToken, async (req, res) => {
 		if (!travelStory) {
 			return res
 				.status(404)
-				.json({ error: true, message: 'Travel story not found' });
+				.json({ error: true, message: t("backend.travelStoryNotFound_3") });
 		}
 
 		travelStory.isFavourite = isFavourite;
 		await travelStory.save();
 		res
 			.status(200)
-			.json({ story: travelStory, message: 'Story updated successfully' });
+			.json({ story: travelStory, message: t("backend.storyUpdatedSuccessfully") });
 	} catch (error) {
 		res.status(500).json({ error: true, message: error.message });
 	}
@@ -337,7 +339,7 @@ app.get('/search', authenticateToken, async (req, res) => {
 	if (!query) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'Search query is required' });
+			.json({ error: true, message: t("backend.searchQueryIsRequired") });
 	}
 
 	try {
@@ -364,7 +366,7 @@ app.get('/travel-stories/filter', authenticateToken, async (req, res) => {
 	if (!startDate || !endDate) {
 		return res
 			.status(400)
-			.json({ error: true, message: 'Start and end dates are required' });
+			.json({ error: true, message: t("backend.startAndEndDatesAre") });
 	}
 
 	try {

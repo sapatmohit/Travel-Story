@@ -1,0 +1,105 @@
+{
+  "sign-up": {
+    "createLogin": "CREATE LOGIN",
+    "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerfahrungen und Erinnerungen in Ihrem persönlichen Reisejournal.",
+    "signup": "Anmeldung",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "or": "oder",
+    "joinThe": "Schließen Sie sich dem Abenteuer an",
+    "login": "ANMELDUNG"
+  },
+  "travel-story-card": {
+    "item": "{item},"
+  },
+  "empty-card": {
+    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat.",
+    "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte."
+  },
+  "add-edit-travel-story": {
+    "addStory_2": "ADD STORY",
+    "addStory": "Hinzufügen der Geschichte",
+    "updateStory": "Update-Geschichte",
+    "updateStory_2": "[#0} UPDATE STORY] UPDATE STORY",
+    "delete": "LÖSCHEN",
+    "title": "TITEL",
+    "aDayAtGreatWall": "Ein Tag an der großen Mauer",
+    "yourStory": "Ihre Geschichte",
+    "visitedLocations": "BESITZTEN SITZEN",
+    "story": "Die Geschichte"
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "de"
+  },
+  "indexhtml": {
+    "travelStory": "Reisegeschichte"
+  },
+  "backend": {
+    "allFieldsAreRequired": "Alle Felder sind notwendig",
+    "userAlreadyExists": "Benutzer existiert bereits",
+    "registrationSuccessful": "Registrierung erfolgreich",
+    "allFieldsAreRequired_2": "Alle Felder sind notwendig",
+    "userNotFound": "Benutzer nicht gefunden",
+    "invalidCredentials": "Invalide Zeugnisse",
+    "loginSuccessful": "Login erfolgreich",
+    "noImageUploaded": "Keine Bilder hochgeladen",
+    "imageDeletedSuccessfully": "Bild gelöscht erfolgreich",
+    "imageNotFound": "Bild nicht gefunden",
+    "allFieldsAreRequired_3": "Alle Felder sind notwendig",
+    "travelStoryAddedSuccessfully": "Reisegeschichte erfolgreich hinzugefügt",
+    "allFieldsAreRequired_4": "Alle Felder sind notwendig",
+    "travelStoryNotFound": "Reisegeschichte nicht gefunden",
+    "travelStoryUpdatedSuccessfully": "Die Reisegeschichte wurde erfolgreich aktualisiert",
+    "travelStoryNotFound_2": "Reisegeschichte nicht gefunden",
+    "travelStoryDeletedSuccessfully": "Reisegeschichte erfolgreich gelöscht",
+    "travelStoryNotFound_3": "Reisegeschichte nicht gefunden",
+    "storyUpdatedSuccessfully": "Geschichte erfolgreich aktualisiert",
+    "searchQueryIsRequired": "Die Suchanfrage ist erforderlich",
+    "startAndEndDatesAre": "Start- und Enddaten sind erforderlich",
+    "imageurlParameterIsRequired": "ImageUrl-Parameter ist erforderlich"
+  },
+  "password-input": {
+    "password": "Passwort"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "Durchsuchen Sie Bilderdateien, um sie hochzuladen",
+    "selected": "Ausgewählt"
+  },
+  "search-bar": {
+    "searchNotes": "Suchenbotschaften"
+  },
+  "tag-input": {
+    "addLocation": "Fügen Sie Standort hinzu"
+  },
+  "profile-info": {
+    "logout": "Abmelden"
+  },
+  "filter-info-title": {
+    "searchResults": "Suchergebnisse",
+    "travelStoriesFrom": "Reisegeschichten von"
+  },
+  "navbar": {
+    "travelStory": "Reisegeschichte"
+  },
+  "view-travel-story": {
+    "updateStory": "Aktualisierte Geschichte",
+    "update": "AKTUALISIEREN",
+    "delete": "LÖSCHEN"
+  },
+  "home": {
+    "selectedDateRange": "Ausgewählter Datumsbereich",
+    "selectDates": "Wählen Sie Daten",
+    "noDatesSelected": "Kein Datum ausgewählt"
+  },
+  "login": {
+    "journeys": "Reisen",
+    "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerfahrungen und Erinnerungen in Ihrem persönlichen Reisejournal.",
+    "email": "E-Mail",
+    "or": "oder",
+    "createAccount": "KONTO ERSTELLEN",
+    "captureYour": "Fangen Sie Ihre",
+    "login": "Anmeldung",
+    "login_2": "ANMELDUNG"
+  }
+}

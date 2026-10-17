@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import React, { useState } from 'react';
 import { GrMapLocation } from 'react-icons/gr';
 import { MdAdd, MdClose } from 'react-icons/md';
 
 const TagInput = ({ tags, setTags }) => {
+	const { t } = useTranslation();
 	const [inputValue, setInputValue] = useState('');
 
 	const addNewTag = () => {
@@ -48,7 +50,7 @@ const TagInput = ({ tags, setTags }) => {
 					type="text"
 					value={inputValue}
 					className="text-sm bg-transparent border px-3 py-2 rounded outline-none"
-					placeholder="Add Location"
+					placeholder={t("tag-input.addLocation")}
 					onChange={handleInputChange}
 					onKeyDown={handleKeyDown}
 				/>

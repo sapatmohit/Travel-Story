@@ -1,0 +1,105 @@
+{
+  "travel-story-card": {
+    "item": "{item},"
+  },
+  "empty-card": {
+    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados.",
+    "startYourFirstTravelStory": "Comience su primera historia de viaje hoy."
+  },
+  "_meta": {
+    "dir": "ltr",
+    "language": "es"
+  },
+  "indexhtml": {
+    "travelStory": "Historia de los viajes"
+  },
+  "backend": {
+    "allFieldsAreRequired": "Todos los campos son necesarios",
+    "userAlreadyExists": "El usuario ya existe",
+    "registrationSuccessful": "El registro fue exitoso",
+    "allFieldsAreRequired_2": "Todos los campos son necesarios",
+    "userNotFound": "No se encuentra el usuario",
+    "invalidCredentials": "Credenciales inválidas",
+    "loginSuccessful": "Ingreso exitoso",
+    "noImageUploaded": "Ninguna imagen subida",
+    "imageDeletedSuccessfully": "Imagen eliminada con éxito",
+    "imageNotFound": "Imagen no encontrada",
+    "allFieldsAreRequired_3": "Todos los campos son necesarios",
+    "travelStoryAddedSuccessfully": "La historia de viaje se añadió con éxito",
+    "allFieldsAreRequired_4": "Todos los campos son necesarios",
+    "travelStoryNotFound": "La historia de viaje no se encontró",
+    "travelStoryUpdatedSuccessfully": "Historia de viaje actualizada con éxito",
+    "travelStoryNotFound_2": "La historia de viaje no se encontró",
+    "travelStoryDeletedSuccessfully": "La historia de viaje fue eliminada con éxito",
+    "travelStoryNotFound_3": "La historia de viaje no se encontró",
+    "storyUpdatedSuccessfully": "La historia se actualizó con éxito",
+    "searchQueryIsRequired": "Se requiere una consulta de búsqueda",
+    "startAndEndDatesAre": "Se requieren fechas de inicio y final",
+    "imageurlParameterIsRequired": "Se requiere el parámetro imageUrl"
+  },
+  "password-input": {
+    "password": "Contraseña"
+  },
+  "image-selector": {
+    "browseImageFilesToUpload": "Explore los archivos de imágenes para subir",
+    "selected": "Seleccionado"
+  },
+  "search-bar": {
+    "searchNotes": "Notas de búsqueda"
+  },
+  "tag-input": {
+    "addLocation": "Añade la ubicación"
+  },
+  "profile-info": {
+    "logout": "Cerrar sesión"
+  },
+  "filter-info-title": {
+    "searchResults": "Resultados de búsqueda",
+    "travelStoriesFrom": "Historias de viaje de"
+  },
+  "navbar": {
+    "travelStory": "Historia de los viajes"
+  },
+  "view-travel-story": {
+    "updateStory": "Actualización de la historia",
+    "update": "ACTUALIZAR",
+    "delete": "ELIMINAR"
+  },
+  "home": {
+    "selectedDateRange": "Rango de fechas seleccionado",
+    "selectDates": "Seleccione las fechas",
+    "noDatesSelected": "No se han seleccionado fechas"
+  },
+  "add-edit-travel-story": {
+    "addStory": "Añade la historia",
+    "updateStory": "Actualización de historia",
+    "updateStory_2": "HISTORIA Actualizada",
+    "delete": "ELIMINAR",
+    "title": "TÍTULO",
+    "aDayAtGreatWall": "Un día en la Gran Muralla",
+    "yourStory": "Su historia",
+    "visitedLocations": "Lugares visitados",
+    "addStory_2": "Adición de historia",
+    "story": "La historia"
+  },
+  "sign-up": {
+    "recordYourTravelExperiencesAnd": "Registra tus experiencias de viaje y recuerdos en tu diario personal de viajes.",
+    "signup": "Inscribirse",
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "or": "o",
+    "joinThe": "Únete a la aventura",
+    "createLogin": "para los niños",
+    "login": "INICIO DE SESIÓN"
+  },
+  "login": {
+    "journeys": "Viajes",
+    "recordYourTravelExperiencesAnd": "Registra tus experiencias de viaje y recuerdos en tu diario personal de viajes.",
+    "email": "Correo electrónico",
+    "or": "o",
+    "createAccount": "CREAR CUENTA",
+    "captureYour": "Captura tus viajes",
+    "login": "Inicio de sesión",
+    "login_2": "INICIO DE SESIÓN"
+  }
+}

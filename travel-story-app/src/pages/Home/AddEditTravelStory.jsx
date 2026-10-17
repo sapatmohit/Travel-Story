@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import moment from 'moment';
 import React, { useState } from 'react';
 import { MdAdd, MdClose, MdDeleteOutline, MdUpdate } from 'react-icons/md';
@@ -14,6 +15,7 @@ const AddEditTravelStory = ({
 	onClose,
 	getAllTravelStories,
 }) => {
+	const { t } = useTranslation();
 	const [title, setTitle] = useState(storyInfo?.title || '');
 	const [storyImg, setStoryImg] = useState(storyInfo?.imageUrl || null);
 	const [story, setStory] = useState(storyInfo?.story || '');
@@ -179,7 +181,7 @@ const AddEditTravelStory = ({
 		<div className="relative w-full max-w-4xl mx-auto p-4">
 			<div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
 				<h5 className="text-xl font-medium text-slate-700">
-					{type === 'add' ? 'Add Story' : 'Update Story'}
+					{type === 'add' ? t("add-edit-travel-story.addStory") : t("add-edit-travel-story.updateStory")}
 				</h5>
 
 				<button
@@ -196,7 +198,7 @@ const AddEditTravelStory = ({
 								className="btn-small w-full sm:w-auto flex items-center justify-center gap-2"
 								onClick={handleAddOrUpdateClick}
 							>
-								<MdAdd className="text-lg" /> ADD STORY
+								<MdAdd className="text-lg" /> {t("add-edit-travel-story.addStory_2")}
 							</button>
 						) : (
 							<>
@@ -204,13 +206,13 @@ const AddEditTravelStory = ({
 									className="btn-small w-full sm:w-auto flex items-center justify-center gap-2"
 									onClick={handleAddOrUpdateClick}
 								>
-									<MdUpdate className="text-lg" /> UPDATE STORY
+									<MdUpdate className="text-lg" /> {t("add-edit-travel-story.updateStory_2")}
 								</button>
 								<button
 									className="btn-small btn-delete w-full sm:w-auto flex items-center justify-center gap-2"
 									onClick={onClose}
 								>
-									<MdDeleteOutline className="text-lg" /> DELETE
+									<MdDeleteOutline className="text-lg" /> {t("add-edit-travel-story.delete")}
 								</button>
 							</>
 						)}
@@ -229,11 +231,11 @@ const AddEditTravelStory = ({
 
 			<div className="space-y-6">
 				<div className="flex flex-col gap-2">
-					<label className="input-label">TITLE</label>
+					<label className="input-label">{t("add-edit-travel-story.title")}</label>
 					<input
 						type="text"
 						className="text-xl sm:text-2xl text-slate-950 outline-none w-full p-2 bg-slate-50 rounded"
-						placeholder="A Day at Great Wall"
+						placeholder={t("add-edit-travel-story.aDayAtGreatWall")}
 						value={title}
 						onChange={({ target }) => setTitle(target.value)}
 					/>
@@ -250,10 +252,10 @@ const AddEditTravelStory = ({
 				/>
 
 				<div className="flex flex-col gap-2">
-					<label className="input-label">STORY</label>
+					<label className="input-label">{t("add-edit-travel-story.story")}</label>
 					<textarea
 						className="text-sm text-slate-950 outline-none bg-slate-50 p-4 rounded min-h-[200px] w-full"
-						placeholder="Your Story"
+						placeholder={t("add-edit-travel-story.yourStory")}
 						rows={10}
 						value={story}
 						onChange={({ target }) => setStory(target.value)}
@@ -261,7 +263,7 @@ const AddEditTravelStory = ({
 				</div>
 
 				<div>
-					<label className="input-label block mb-2">VISITED LOCATIONS</label>
+					<label className="input-label block mb-2">{t("add-edit-travel-story.visitedLocations")}</label>
 					<TagInput tags={visitedLocation} setTags={setVisitedLocation} />
 				</div>
 			</div>
