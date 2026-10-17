@@ -15,6 +15,7 @@ const EmptyCard = ({ imgSrc, message }) => {
 			<p className="text-xs text-slate-500 mt-2">Start your first travel story today.</p>
 			<p className="text-xs text-slate-400">Your memories stay private.</p>
 			<p className="text-xs text-slate-400">Share them when you are ready.</p>
+			<p className="text-xs text-slate-400">Every trip counts.</p>
 		</div>
 	);
 };
