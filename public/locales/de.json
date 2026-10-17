@@ -1,6 +1,7 @@
 {
   "sign-up": {
     "createLogin": "CREATE LOGIN",
+    "adventure": "Abenteuer",
     "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerfahrungen und Erinnerungen in Ihrem persönlichen Reisejournal.",
     "signup": "Anmeldung",
     "fullName": "Vollständiger Name",
@@ -12,14 +13,8 @@
   "travel-story-card": {
     "item": "{item},"
   },
-  "empty-card": {
-    "everyTripCounts": "Jede Reise zählt.",
-    "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte.",
-    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat.",
-    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind."
-  },
   "add-edit-travel-story": {
-    "addStory_2": "ADD STORY",
+    "addStory_2": "Zusatzgeschichte",
     "addStory": "Hinzufügen der Geschichte",
     "updateStory": "Update-Geschichte",
     "updateStory_2": "[#0} UPDATE STORY] UPDATE STORY",
@@ -76,6 +71,12 @@
   },
   "profile-info": {
     "logout": "Abmelden"
+  },
+  "empty-card": {
+    "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte.",
+    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat.",
+    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind.",
+    "everyTripCounts": "Jede Reise zählt."
   },
   "filter-info-title": {
     "searchResults": "Suchergebnisse",

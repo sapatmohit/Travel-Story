@@ -2,11 +2,16 @@
   "travel-story-card": {
     "item": "{item},"
   },
-  "empty-card": {
-    "everyTripCounts": "Cada viaje cuenta.",
-    "startYourFirstTravelStory": "Comience su primera historia de viaje hoy.",
-    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados.",
-    "shareThemWhenYouAre": "Compartirlos cuando estés listo."
+  "sign-up": {
+    "adventure": "La aventura",
+    "recordYourTravelExperiencesAnd": "Registra tus experiencias de viaje y recuerdos en tu diario personal de viajes.",
+    "signup": "Inscribirse",
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "or": "o",
+    "joinThe": "Únete a la aventura",
+    "createLogin": "para los niños",
+    "login": "INICIO DE SESIÓN"
   },
   "_meta": {
     "dir": "ltr",
@@ -55,6 +60,12 @@
   "profile-info": {
     "logout": "Cerrar sesión"
   },
+  "empty-card": {
+    "startYourFirstTravelStory": "Comience su primera historia de viaje hoy.",
+    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados.",
+    "shareThemWhenYouAre": "Compartirlos cuando estés listo.",
+    "everyTripCounts": "Cada viaje cuenta."
+  },
   "filter-info-title": {
     "searchResults": "Resultados de búsqueda",
     "travelStoriesFrom": "Historias de viaje de"
@@ -83,16 +94,6 @@
     "visitedLocations": "Lugares visitados",
     "addStory_2": "Adición de historia",
     "story": "La historia"
-  },
-  "sign-up": {
-    "recordYourTravelExperiencesAnd": "Registra tus experiencias de viaje y recuerdos en tu diario personal de viajes.",
-    "signup": "Inscribirse",
-    "fullName": "Nombre completo",
-    "email": "Correo electrónico",
-    "or": "o",
-    "joinThe": "Únete a la aventura",
-    "createLogin": "para los niños",
-    "login": "INICIO DE SESIÓN"
   },
   "login": {
     "journeys": "Viajes",

@@ -2,12 +2,6 @@
   "travel-story-card": {
     "item": "{item},"
   },
-  "empty-card": {
-    "everyTripCounts": "Chaque voyage compte.",
-    "startYourFirstTravelStory": "Commencez votre première histoire de voyage aujourd'hui.",
-    "yourMemoriesStayPrivate": "Vos souvenirs restent privés.",
-    "shareThemWhenYouAre": "Partagez-les quand vous êtes prêt."
-  },
   "_meta": {
     "dir": "ltr",
     "language": "fr"
@@ -54,6 +48,12 @@
   },
   "profile-info": {
     "logout": "Déconnexion"
+  },
+  "empty-card": {
+    "startYourFirstTravelStory": "Commencez votre première histoire de voyage aujourd'hui.",
+    "yourMemoriesStayPrivate": "Vos souvenirs restent privés.",
+    "shareThemWhenYouAre": "Partagez-les quand vous êtes prêt.",
+    "everyTripCounts": "Chaque voyage compte."
   },
   "filter-info-title": {
     "searchResults": "Résultats de recherche",
