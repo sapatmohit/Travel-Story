@@ -13,9 +13,10 @@
     "item": "{item},"
   },
   "empty-card": {
-    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind.",
+    "everyTripCounts": "Jede Reise zählt.",
     "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte.",
-    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat."
+    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat.",
+    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind."
   },
   "add-edit-travel-story": {
     "addStory_2": "ADD STORY",

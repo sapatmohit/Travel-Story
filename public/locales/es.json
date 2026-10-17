@@ -3,9 +3,10 @@
     "item": "{item},"
   },
   "empty-card": {
-    "shareThemWhenYouAre": "Compartirlos cuando estés listo.",
+    "everyTripCounts": "Cada viaje cuenta.",
     "startYourFirstTravelStory": "Comience su primera historia de viaje hoy.",
-    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados."
+    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados.",
+    "shareThemWhenYouAre": "Compartirlos cuando estés listo."
   },
   "_meta": {
     "dir": "ltr",

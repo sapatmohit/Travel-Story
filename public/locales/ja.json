@@ -3,9 +3,10 @@
     "item": "{item},"
   },
   "empty-card": {
-    "shareThemWhenYouAre": "準備ができたら共有してください.",
+    "everyTripCounts": "どの旅も大切だ",
     "startYourFirstTravelStory": "今日から最初の旅の話を始めましょう",
-    "yourMemoriesStayPrivate": "あなたの記憶は私的なままでいい"
+    "yourMemoriesStayPrivate": "あなたの記憶は私的なままでいい",
+    "shareThemWhenYouAre": "準備ができたら共有してください."
   },
   "_meta": {
     "dir": "ltr",
