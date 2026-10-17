@@ -1,34 +1,24 @@
 {
   "sign-up": {
     "createLogin": "CREATE LOGIN",
+    "joinThe": "Schließen Sie sich dem Abenteuer an",
+    "adventure": "Abenteuer",
     "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerfahrungen und Erinnerungen in Ihrem persönlichen Reisejournal.",
     "signup": "Anmeldung",
     "fullName": "Vollständiger Name",
     "email": "E-Mail",
     "or": "oder",
-    "joinThe": "Schließen Sie sich dem Abenteuer an",
     "login": "ANMELDUNG"
   },
   "travel-story-card": {
     "item": "{item},"
   },
   "empty-card": {
-    "everyTripCounts": "Jede Reise zählt.",
+    "packLightTravelFar": "Packen Sie Licht, reisen Sie weit.",
     "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte.",
     "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat.",
-    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind."
-  },
-  "add-edit-travel-story": {
-    "addStory_2": "ADD STORY",
-    "addStory": "Hinzufügen der Geschichte",
-    "updateStory": "Update-Geschichte",
-    "updateStory_2": "[#0} UPDATE STORY] UPDATE STORY",
-    "delete": "LÖSCHEN",
-    "title": "TITEL",
-    "aDayAtGreatWall": "Ein Tag an der großen Mauer",
-    "yourStory": "Ihre Geschichte",
-    "visitedLocations": "BESITZTEN SITZEN",
-    "story": "Die Geschichte"
+    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind.",
+    "everyTripCounts": "Jede Reise zählt."
   },
   "_meta": {
     "dir": "ltr",
@@ -94,13 +84,25 @@
     "selectDates": "Wählen Sie Daten",
     "noDatesSelected": "Kein Datum ausgewählt"
   },
+  "add-edit-travel-story": {
+    "addStory": "Hinzufügen der Geschichte",
+    "updateStory": "Update-Geschichte",
+    "updateStory_2": "[#0} UPDATE STORY] UPDATE STORY",
+    "delete": "LÖSCHEN",
+    "title": "TITEL",
+    "aDayAtGreatWall": "Ein Tag an der großen Mauer",
+    "yourStory": "Ihre Geschichte",
+    "visitedLocations": "BESITZTEN SITZEN",
+    "addStory_2": "Zusatzgeschichte",
+    "story": "Die Geschichte"
+  },
   "login": {
+    "captureYour": "Fangen Sie Ihre",
     "journeys": "Reisen",
     "recordYourTravelExperiencesAnd": "Verzeichnen Sie Ihre Reiseerfahrungen und Erinnerungen in Ihrem persönlichen Reisejournal.",
     "email": "E-Mail",
     "or": "oder",
     "createAccount": "KONTO ERSTELLEN",
-    "captureYour": "Fangen Sie Ihre",
     "login": "Anmeldung",
     "login_2": "ANMELDUNG"
   }

@@ -3,10 +3,11 @@
     "item": "{item},"
   },
   "empty-card": {
-    "everyTripCounts": "どの旅も大切だ",
+    "packLightTravelFar": "ライトをまとめて 遠くへ行け",
     "startYourFirstTravelStory": "今日から最初の旅の話を始めましょう",
     "yourMemoriesStayPrivate": "あなたの記憶は私的なままでいい",
-    "shareThemWhenYouAre": "準備ができたら共有してください."
+    "shareThemWhenYouAre": "準備ができたら共有してください.",
+    "everyTripCounts": "どの旅も大切だ"
   },
   "_meta": {
     "dir": "ltr",
@@ -79,19 +80,22 @@
     "title": "タイトル",
     "aDayAtGreatWall": "グレート・ウォール の 一日",
     "yourStory": "あなたの物語は",
-    "visitedLocations": "訪れた場所"
+    "visitedLocations": "訪れた場所",
+    "addStory_2": "アド・ストーリーは"
   },
   "sign-up": {
+    "joinThe": "加入する",
+    "adventure": "アドベンチャー",
     "recordYourTravelExperiencesAnd": "旅行体験と記憶を個人的な旅行日記に記録する.",
     "signup": "登録する",
     "fullName": "氏名",
     "email": "メールアドレス",
     "or": "または",
-    "adventure": "アドベンチャー",
     "createLogin": "LOGIN を作る",
     "login": "ログイン"
   },
   "login": {
+    "captureYour": "あなたを捕まえる",
     "journeys": "旅行",
     "recordYourTravelExperiencesAnd": "旅行体験と記憶を個人的な旅行日記に記録する.",
     "email": "メールアドレス",
