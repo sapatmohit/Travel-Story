@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import moment from 'moment';
 import React from 'react';
 import { GrMapLocation } from 'react-icons/gr';
@@ -9,6 +10,7 @@ const ViewTravelStory = ({
 	onEditClick,
 	onDeleteClick,
 }) => {
+	const { t } = useTranslation();
 	return (
 		<div className="relative max-w-full">
 			{/* Header Actions */}
@@ -19,15 +21,15 @@ const ViewTravelStory = ({
 						onClick={onEditClick}
 					>
 						<MdUpdate className="text-base sm:text-lg" />
-						<span className="hidden sm:inline">UPDATE STORY</span>
-						<span className="sm:hidden">UPDATE</span>
+						<span className="hidden sm:inline">{t("view-travel-story.updateStory")}</span>
+						<span className="sm:hidden">{t("view-travel-story.update")}</span>
 					</button>
 					<button
 						className="btn-small btn-delete text-xs sm:text-sm flex items-center gap-1"
 						onClick={onDeleteClick}
 					>
 						<MdDeleteOutline className="text-base sm:text-lg" />
-						<span>DELETE</span>
+						<span>{t("view-travel-story.delete")}</span>
 					</button>
 					<button className="p-1" onClick={onClose}>
 						<MdClose className="text-lg sm:text-xl text-slate-400" />

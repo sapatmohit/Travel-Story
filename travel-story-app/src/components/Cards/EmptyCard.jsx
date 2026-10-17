@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import React from 'react';
 
 const EmptyCard = ({ imgSrc, message }) => {
+	const { t } = useTranslation();
 	return (
 		<div className="flex flex-col items-center justify-center mt-20">
 			<img
@@ -12,10 +14,10 @@ const EmptyCard = ({ imgSrc, message }) => {
 			<p className="w-1/2 text-sm font-medium text-slate-700 text-center leading-7 mt-5">
 				{message}
 			</p>
-			<p className="text-xs text-slate-500 mt-2">Start your first travel story today.</p>
-			<p className="text-xs text-slate-400">Your memories stay private.</p>
-			<p className="text-xs text-slate-400">Share them when you are ready.</p>
-			<p className="text-xs text-slate-400">Every trip counts.</p>
+			<p className="text-xs text-slate-500 mt-2">{t("empty-card.startYourFirstTravelStory")}</p>
+			<p className="text-xs text-slate-400">{t("empty-card.yourMemoriesStayPrivate")}</p>
+			<p className="text-xs text-slate-400">{t("empty-card.shareThemWhenYouAre")}</p>
+			<p className="text-xs text-slate-400">{t("empty-card.everyTripCounts")}</p>
 		</div>
 	);
 };

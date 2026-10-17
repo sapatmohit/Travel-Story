@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import React, { useState } from 'react';
 import { FaRegUserCircle } from 'react-icons/fa';
 import { MdClose, MdSearch } from 'react-icons/md';
@@ -13,6 +14,7 @@ const Navbar = ({
 	onSearchNote,
 	handleClearSearch,
 }) => {
+	const { t } = useTranslation();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isSearchOpen, setIsSearchOpen] = useState(false);
 	const isToken = localStorage.getItem('token');
@@ -42,7 +44,7 @@ const Navbar = ({
 					<div className="flex items-center">
 						<img
 							src={LOGO}
-							alt="Travel Story"
+							alt={t("navbar.travelStory")}
 							className="h-8 sm:h-10 lg:h-12 w-auto"
 						/>
 					</div>
