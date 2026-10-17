@@ -3,8 +3,9 @@
     "item": "{item},"
   },
   "empty-card": {
-    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados.",
-    "startYourFirstTravelStory": "Comience su primera historia de viaje hoy."
+    "shareThemWhenYouAre": "Compartirlos cuando estés listo.",
+    "startYourFirstTravelStory": "Comience su primera historia de viaje hoy.",
+    "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados."
   },
   "_meta": {
     "dir": "ltr",

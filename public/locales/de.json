@@ -13,8 +13,9 @@
     "item": "{item},"
   },
   "empty-card": {
-    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat.",
-    "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte."
+    "shareThemWhenYouAre": "Teilen Sie sie, wenn Sie bereit sind.",
+    "startYourFirstTravelStory": "Beginnen Sie heute Ihre erste Reisegeschichte.",
+    "yourMemoriesStayPrivate": "Ihre Erinnerungen bleiben privat."
   },
   "add-edit-travel-story": {
     "addStory_2": "ADD STORY",

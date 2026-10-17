@@ -3,8 +3,9 @@
     "item": "{item},"
   },
   "empty-card": {
-    "yourMemoriesStayPrivate": "あなたの記憶は私的なままでいい",
-    "startYourFirstTravelStory": "今日から最初の旅の話を始めましょう"
+    "shareThemWhenYouAre": "準備ができたら共有してください.",
+    "startYourFirstTravelStory": "今日から最初の旅の話を始めましょう",
+    "yourMemoriesStayPrivate": "あなたの記憶は私的なままでいい"
   },
   "_meta": {
     "dir": "ltr",

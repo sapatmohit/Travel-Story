@@ -24,8 +24,9 @@
     "item": "{item},"
   },
   "empty-card": {
-    "yourMemoriesStayPrivate": "As tuas memórias ficam privadas.",
-    "startYourFirstTravelStory": "Comece a tua primeira história de viagem hoje."
+    "shareThemWhenYouAre": "Compartilhe-os quando estiver pronto.",
+    "startYourFirstTravelStory": "Comece a tua primeira história de viagem hoje.",
+    "yourMemoriesStayPrivate": "As tuas memórias ficam privadas."
   },
   "add-edit-travel-story": {
     "addStory_2": "ADD STORY",
