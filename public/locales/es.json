@@ -3,10 +3,11 @@
     "item": "{item},"
   },
   "empty-card": {
-    "everyTripCounts": "Cada viaje cuenta.",
+    "packLightTravelFar": "Empachar la luz, viajar lejos.",
     "startYourFirstTravelStory": "Comience su primera historia de viaje hoy.",
     "yourMemoriesStayPrivate": "Sus recuerdos permanecen privados.",
-    "shareThemWhenYouAre": "Compartirlos cuando estés listo."
+    "shareThemWhenYouAre": "Compartirlos cuando estés listo.",
+    "everyTripCounts": "Cada viaje cuenta."
   },
   "_meta": {
     "dir": "ltr",
@@ -85,22 +86,23 @@
     "story": "La historia"
   },
   "sign-up": {
+    "joinThe": "Únete a la aventura",
+    "adventure": "La aventura",
     "recordYourTravelExperiencesAnd": "Registra tus experiencias de viaje y recuerdos en tu diario personal de viajes.",
     "signup": "Inscribirse",
     "fullName": "Nombre completo",
     "email": "Correo electrónico",
     "or": "o",
-    "joinThe": "Únete a la aventura",
     "createLogin": "para los niños",
     "login": "INICIO DE SESIÓN"
   },
   "login": {
+    "captureYour": "Captura tus viajes",
     "journeys": "Viajes",
     "recordYourTravelExperiencesAnd": "Registra tus experiencias de viaje y recuerdos en tu diario personal de viajes.",
     "email": "Correo electrónico",
     "or": "o",
     "createAccount": "CREAR CUENTA",
-    "captureYour": "Captura tus viajes",
     "login": "Inicio de sesión",
     "login_2": "INICIO DE SESIÓN"
   }

@@ -1,34 +1,4 @@
 {
-  "sign-up": {
-    "createLogin": "CREATE LOGIN",
-    "login": "LOGIN",
-    "recordYourTravelExperiencesAnd": "Registre suas experiências de viagem e suas memórias em seu diário pessoal de viagens.",
-    "signup": "Inscrever-se",
-    "fullName": "Nome completo",
-    "email": "E-mail",
-    "or": "ou",
-    "joinThe": "Junte-se à aventura",
-    "adventure": "Junte-se à aventura"
-  },
-  "login": {
-    "login": "Login",
-    "login_2": "LOGIN",
-    "journeys": "Capturar as suas viagens",
-    "recordYourTravelExperiencesAnd": "Registre suas experiências de viagem e suas memórias em seu diário pessoal de viagens.",
-    "email": "E-mail",
-    "or": "ou",
-    "createAccount": "CRIAR CONTA",
-    "captureYour": "Capturar as suas viagens"
-  },
-  "travel-story-card": {
-    "item": "{item},"
-  },
-  "empty-card": {
-    "everyTripCounts": "Cada viagem conta.",
-    "startYourFirstTravelStory": "Comece a tua primeira história de viagem hoje.",
-    "yourMemoriesStayPrivate": "As tuas memórias ficam privadas.",
-    "shareThemWhenYouAre": "Compartilhe-os quando estiver pronto."
-  },
   "add-edit-travel-story": {
     "addStory_2": "ADD STORY",
     "addStory": "Adicionar História",
@@ -40,6 +10,37 @@
     "yourStory": "A sua história",
     "visitedLocations": "LOCALES VISITadas",
     "story": "História"
+  },
+  "sign-up": {
+    "createLogin": "CREATE LOGIN",
+    "login": "LOGIN",
+    "joinThe": "Junte-se à aventura",
+    "adventure": "Junte-se à aventura",
+    "recordYourTravelExperiencesAnd": "Registre suas experiências de viagem e suas memórias em seu diário pessoal de viagens.",
+    "signup": "Inscrever-se",
+    "fullName": "Nome completo",
+    "email": "E-mail",
+    "or": "ou"
+  },
+  "login": {
+    "login": "Login",
+    "login_2": "LOGIN",
+    "captureYour": "Capturar as suas viagens",
+    "journeys": "Capturar as suas viagens",
+    "recordYourTravelExperiencesAnd": "Registre suas experiências de viagem e suas memórias em seu diário pessoal de viagens.",
+    "email": "E-mail",
+    "or": "ou",
+    "createAccount": "CRIAR CONTA"
+  },
+  "travel-story-card": {
+    "item": "{item},"
+  },
+  "empty-card": {
+    "packLightTravelFar": "Embala a luz, viaja longe.",
+    "startYourFirstTravelStory": "Comece a tua primeira história de viagem hoje.",
+    "yourMemoriesStayPrivate": "As tuas memórias ficam privadas.",
+    "shareThemWhenYouAre": "Compartilhe-os quando estiver pronto.",
+    "everyTripCounts": "Cada viagem conta."
   },
   "_meta": {
     "dir": "ltr",
