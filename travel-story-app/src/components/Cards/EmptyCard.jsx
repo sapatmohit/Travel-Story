@@ -18,6 +18,7 @@ const EmptyCard = ({ imgSrc, message }) => {
 			<p className="text-xs text-slate-400">{t("empty-card.yourMemoriesStayPrivate")}</p>
 			<p className="text-xs text-slate-400">{t("empty-card.shareThemWhenYouAre")}</p>
 			<p className="text-xs text-slate-400">{t("empty-card.everyTripCounts")}</p>
+			<p className="text-xs text-slate-400">Pack light, travel far.</p>
 		</div>
 	);
 };
