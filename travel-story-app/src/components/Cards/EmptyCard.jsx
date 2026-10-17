@@ -12,6 +12,7 @@ const EmptyCard = ({ imgSrc, message }) => {
 			<p className="w-1/2 text-sm font-medium text-slate-700 text-center leading-7 mt-5">
 				{message}
 			</p>
+			<p className="text-xs text-slate-500 mt-2">Start your first travel story today.</p>
 		</div>
 	);
 };
